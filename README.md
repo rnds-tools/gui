@@ -21,7 +21,7 @@ Estão organizadas em administrativas e de edição por simplicidade.
 
 ## Características administrativas
 
-- Permitir a instalação/atualização/verificação/remoção do AD, o que significa executar estas operações para cada um dos serviços oferecidos pelo AD. São eles: (a) terminologias; (b) auth; (c) fshToFhir (conversor); (d) admin (sidecar); (e) validador.
+- Oferecer as tarefas para instalar/atualizar/verificar/remover o AD, o que significa executar estas tarefas para cada um dos seguintes serviços: (a) terminologias; (b) auth; (c) fshToFhir (conversor); (d) admin (sidecar); (e) validador.
 - Configurar/iniciar/parar os serviços. Por exemplo, configurar terminologias empregadas pelo serviço de terminologias e perfis empregados pelo validador.
 
 - Acompanhar o status dos serviços do AD.
