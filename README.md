@@ -31,6 +31,7 @@ Estão organizadas em administrativas e de edição por simplicidade.
 - Editar instâncias de recursos FHIR, doravante apenas instâncias.
 - Edição deve contemplar os formatos FSH e JSON. Ou seja, trata-se
   de edição de arquivo texto.
+- Edição FSH deve oferecer recursos IntelliSense com lista de opções inteligentes, por exemplo, ao digitar ref<tab> onde se espera uma referência é completado com Reference(x) e o cursor piscando onde está o x com uma lista de opções correspondentes ao contexto em questão. 
 - Edição inclui a validação do conteúdo em relação ao formato FSH ou JSON.
 - Edição inclui a validação do conteúdo em relação à conformidade com eventuais perfis utilizados.
 - Edição deve sinalizar com mínima interferência do usuário, a ocorrência de erros e não conformidades.
