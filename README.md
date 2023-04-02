@@ -1,11 +1,32 @@
 # gui
 
-O Ambiente de Desenvolvimento, ou simplesmente AD, reúne um conjunto de serviços (APIs) que oferece várias funcionalidades. O presente projeto tem como **objetivo** propor um _design_ por meio do qual estas funcionalidades podem ser exploradas por uma interface gráfica (Web App).
+O Ambiente de Desenvolvimento, ou simplesmente AD, reúne um conjunto de serviços (APIs) que oferece várias funcionalidades para gestão ou _design_ de soluções FHIR. O presente projeto tem como **objetivo** propor um _design_ por meio do qual estas funcionalidades podem ser exploradas por uma interface gráfica (Web App).
 
 ## Quem são os usuários (_personas_)?
 
 - Integrador. Desenvolvedor de software que deseja criar seu componente de software para integração com um servidor FHIR. Em outros termos, é um programador.
 - Designer de solução FHIR. Profissional de saúde ou de tecnologia da informação que deseja "experimentar" artefatos FHIR, ou seja, tanto produzir perfis, sistemas de codificação e outros, quanto verificar aqueles existentes por meio da criação de instâncias. Este _designer_ é quem conhece do assunto para os quais as funcionalidades são oferecidas. Necessariamente conhece o assunto, não necessariamente é um programador ou "técnico".
+
+## User stories
+
+- Como designer eu desejo criar instâncias de recursos FHIR para compor minha solução FHIR.
+
+- Como designer eu desejo verificar as instâncias de recursos FHIR que crio para verificar se estão montadas em conformidade com o padrão FHIR.
+
+- Como designer eu desejo carregar uma solução previamente criada para acelerar a produção da minha própria solução.
+
+- Como desinger eu desejo baixar a solução que estou produzindo para uso por um servidor. 
+
+- Como designer eu desejo criar versões das soluções que produzo para assegurar uma evoução segura.
+
+## O que é uma solução?
+
+Ou _design_ de uso do FHIR é um conjunto de instâncias de recursos FHIR. 
+Algumas instâncias servem para ilustrar, enquanto outras definem como o FHIR deve
+ser utilizado em um determinado cenário. 
+
+Ao longo do processo de _design_ instâncias são criadas, exemplos ou não. 
+Verificações são feitas durante este processo, idealmente, a cada mudança.
 
 ## Quais são as funcionalidades?
 
