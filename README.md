@@ -26,7 +26,7 @@ Algumas instâncias servem para ilustrar, enquanto outras definem como o FHIR de
 ser utilizado em um determinado cenário. 
 
 Ao longo do processo de _design_ instâncias são criadas, exemplos ou não. 
-Verificações são feitas durante este processo, idealmente, a cada mudança.
+Verificações são feitas durante este processo, idealmente, a cada pequena mudança.
 
 ## Quais são as funcionalidades?
 
