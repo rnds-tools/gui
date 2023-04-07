@@ -28,7 +28,12 @@ ajuste na solução.
 
 - Como designer eu desejo criar instâncias de recursos FHIR para compor minha solução FHIR.
 
-- Como designer eu desejo verificar as instâncias de recursos FHIR que crio para verificar se estão montadas em conformidade com o padrão FHIR.
+- Como designer eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a 
+conformidade com o padrão FHIR.
+
+- Como designer eu desejo validar a solução para assegurar que, de fato, estou propondo
+uma solução que atende às especificidades do contexto de uso do FHIR. 
+
 
 - Como designer eu desejo carregar uma solução previamente criada para acelerar a produção da minha própria solução.
 
