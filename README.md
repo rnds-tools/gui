@@ -14,7 +14,7 @@ especificação do padrão.
 
 ## O que é uma solução?
 
-Ou _design_ de uso do FHIR é um conjunto de instâncias de recursos FHIR. 
+Solução ou _design_ de uso do FHIR é um conjunto de instâncias de recursos FHIR. 
 Estas instâncias definem como o FHIR deve
 ser utilizado em um determinado cenário de interoperabilidade em saúde.
 De forma simplificada, um recurso pode ser compreendido como um
