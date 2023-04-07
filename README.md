@@ -34,12 +34,15 @@ conformidade com o padrão FHIR.
 - Como designer eu desejo validar a solução para assegurar que, de fato, estou propondo
 uma solução que atende às especificidades do contexto de uso do FHIR. 
 
-
 - Como designer eu desejo carregar uma solução previamente criada para acelerar a produção da minha própria solução.
 
-- Como desinger eu desejo baixar a solução que estou produzindo para uso por um servidor. 
+- Como desinger eu desejo baixar a solução que estou produzindo para uso por um servidor FHIR.
 
-- Como designer eu desejo criar versões das soluções que produzo para assegurar uma evoução segura.
+- Como designer eu desejo fazer associar uma solução a outra para que uma delas se beneficie do que
+já está definido na outra, em uma dada versão.
+
+- Como designer eu desejo criar versões das soluções que produzo para assegurar que posso retomar 
+uma dada versão, se necessário.
 
 ## Quais são as funcionalidades?
 
