@@ -9,7 +9,7 @@ Profissional de saúde ou de tecnologia da informação.
 Este usuário conhece o padrão FHIR, sabe como ele está organizado e o que é preciso para adaptá-lo a um contexto de uso.
 Não necessariamente possui habilidades de programação. Embora possua conhecimento e certa familiaridade com o padrão, naturalmente é preciso consultar a especificação correspondente em vários cenários. 
 
-A expectativa dele é criar rapidamente uma solução (modelagem FHIR) sem ter que recorrer à extensa
+A expectativa do usuário é criar rapidamente uma solução (modelagem FHIR) sem ter que recorrer à extensa
 especificação do padrão. 
 
 ## O que é uma solução?
