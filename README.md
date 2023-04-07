@@ -44,10 +44,8 @@ já está definido na outra, em uma dada versão.
 - Como designer eu desejo criar versões das soluções que produzo para assegurar que posso retomar 
 uma dada versão, se necessário.
 
-## Quais são as funcionalidades?
-
-- Verificação de códigos em um servidor de terminologias.
-- Validação de instâncias de recursos. Entenda recurso como uma classe e instância, como uma instância da classe, em uma analogia com a orientação a objetos.
+- Como designer eu desejo visualizar a solução para facilitar a localização e a compreensão da relação 
+entre as instâncias.
 
 ## Características oferecidas pela GUI
 
