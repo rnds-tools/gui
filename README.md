@@ -1,11 +1,28 @@
-# gui
+## Objetivo
 
-O Ambiente de Desenvolvimento, ou simplesmente AD, reúne um conjunto de serviços (APIs) que oferece várias funcionalidades para gestão ou _design_ de soluções FHIR. O presente projeto tem como **objetivo** propor um _design_ por meio do qual estas funcionalidades podem ser exploradas por uma interface gráfica (Web App).
+Propor uma experiência do usuário para projetistas de solução FHIR (modelagem FHIR).
 
-## Quem são os usuários (_personas_)?
+## Projetista FHIR (_persona_)
 
-- Integrador. Desenvolvedor de software que deseja criar seu componente de software para integração com um servidor FHIR. Em outros termos, é um programador.
-- Designer de solução FHIR. Profissional de saúde ou de tecnologia da informação que deseja "experimentar" artefatos FHIR, ou seja, tanto produzir perfis, sistemas de codificação e outros, quanto verificar aqueles existentes por meio da criação de instâncias. Este _designer_ é quem conhece do assunto para os quais as funcionalidades são oferecidas. Necessariamente conhece o assunto, não necessariamente é um programador ou "técnico".
+Profissional de saúde ou de tecnologia da informação. 
+
+Este usuário conhece o padrão FHIR, sabe como ele está organizado e o que é preciso para adaptá-lo a um contexto de uso.
+Não necessariamente possui habilidades de programação. Embora possua conhecimento e certa familiaridade com o padrão, naturalmente é preciso consultar a especificação correspondente em vários cenários. 
+
+A expectativa dele é criar rapidamente uma solução (modelagem FHIR) sem ter que recorrer à extensa
+especificação do padrão. 
+
+## O que é uma solução?
+
+Ou _design_ de uso do FHIR é um conjunto de instâncias de recursos FHIR. 
+Estas instâncias definem como o FHIR deve
+ser utilizado em um determinado cenário de interoperabilidade em saúde.
+De forma simplificada, um recurso pode ser compreendido como um
+"item de informação em saúde". 
+
+Ao longo do processo de _design_ instâncias são criadas, algumas são exemplos. 
+Verificações são feitas durante este processo, idealmente, a cada pequeno
+ajuste na solução.
 
 ## User stories
 
@@ -18,15 +35,6 @@ O Ambiente de Desenvolvimento, ou simplesmente AD, reúne um conjunto de serviç
 - Como desinger eu desejo baixar a solução que estou produzindo para uso por um servidor. 
 
 - Como designer eu desejo criar versões das soluções que produzo para assegurar uma evoução segura.
-
-## O que é uma solução?
-
-Ou _design_ de uso do FHIR é um conjunto de instâncias de recursos FHIR. 
-Algumas instâncias servem para ilustrar, enquanto outras definem como o FHIR deve
-ser utilizado em um determinado cenário. 
-
-Ao longo do processo de _design_ instâncias são criadas, exemplos ou não. 
-Verificações são feitas durante este processo, idealmente, a cada pequena mudança.
 
 ## Quais são as funcionalidades?
 
