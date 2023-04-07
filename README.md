@@ -1,6 +1,7 @@
 ## Objetivo
 
 Propor uma experiência do usuário para projetistas de solução FHIR (modelagem FHIR).
+Estes projetistas estarão interagindo com o Ambiente de Design, doravante apenas AD.
 
 ## Projetista FHIR (_persona_)
 
