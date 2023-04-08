@@ -1,7 +1,11 @@
 ## Objetivo
 
-Propor uma experiência do usuário para projetistas de solução FHIR (modelagem FHIR).
-Estes projetistas estarão interagindo com o Ambiente de Design, doravante apenas AD.
+Projetistas de soluções FHIR realizam suas atividades
+de modelagem FHIR usando um conjunto disperso de ferramentas, de fornecedores distintos.
+Ambiente de Design (AD) é a proposta de um software para oferecer todas as 
+funcionalidades esperadas por tais projetistas por meio de um único software (serviço). 
+Este projeto tem como finalidade propor uma experiência do usuário para tais
+projetistas em relação ao AD.
 
 ## Projetista FHIR (_persona_)
 
