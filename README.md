@@ -52,6 +52,9 @@ uma dada versão, se necessário.
 - Como designer eu desejo visualizar a solução para facilitar a localização e a compreensão da relação 
 entre as instâncias.
 
+- Como designer eu desejo configurar o ADF para refletir as opções correntes que melhor atendem 
+às necessidades em questão. 
+
 
 ## Características administrativas
 
