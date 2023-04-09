@@ -12,8 +12,7 @@ Projetistas conhecem o padrão FHIR e o que é preciso para adaptá-lo a um cont
 
 Um projetista não necessariamente possui habilidades de programação. Embora possua conhecimento e certa familiaridade com o padrão, naturalmente é preciso consultar a especificação correspondente em vários cenários. 
 
-A expectativa dos projetistas é criar rapidamente uma solução (modelagem FHIR) sem ter que recorrer à extensa
-especificação do padrão. 
+Uma expectativa clara dos projetistas é criar com rapidez e facilidade uma solução (modelagem FHIR). 
 
 ## O que é uma solução FHIR (modelagem FHIR)?
 
