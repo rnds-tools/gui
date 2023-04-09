@@ -28,7 +28,7 @@ Ao longo do processo de _design_ instâncias são criadas, algumas são exemplos
 Verificações são feitas durante este processo, idealmente, a cada pequeno
 ajuste na solução.
 
-## User stories (o que o projetista precisa)
+## User stories (requisitos dos projetistas)
 
 - Como designer eu desejo criar instâncias de recursos FHIR para compor minha solução FHIR.
 
