@@ -30,7 +30,7 @@ Ao longo do processo de _design_ instâncias são criadas, algumas são exemplos
 Verificações são feitas durante este processo, idealmente, a cada pequeno
 ajuste na solução.
 
-## User stories
+## User stories (o que o projetista precisa)
 
 - Como designer eu desejo criar instâncias de recursos FHIR para compor minha solução FHIR.
 
@@ -57,7 +57,7 @@ entre as instâncias.
 conforme minhas preferências e configurações correspondentes.
 
 
-## Características administrativas
+### Características administrativas
 
 - Instalar, verificar (se a instalação está "correta") e remover.
 - Iniciar e parar o ADF.
@@ -74,7 +74,7 @@ conforme minhas preferências e configurações correspondentes.
 
 - Deve-se facilitar a localização da instância desejada, tanto de ValueSet quanto de CodeSystem para efetuar esta operação de validação.
 
-### Características de arquivos
+#### Características de arquivos
 
 - Cada usuário possui sua própria área de trabalho, um diretório (_folder_). A área de trabalho é um diretório "em nuvem", semelhante a um diretório local de trabalho, mas não está disponível localmente no computador onde a interface gráfica está em execução.
 
@@ -111,9 +111,14 @@ conforme minhas preferências e configurações correspondentes.
 - Converter FSH/JSON para os formatos correspondente em XML e Turtle. XML/Turtle são usados apenas para consulta.
 - Exportar instâncias no formato PDF com leiaute e conteúdo atrativos.
   
-  ## Características de formulários
+  ### Características de formulários
   
   - Cada instância de recurso pode ser apresentada ao projetista
   por meio de um formulário correspondente, onde os campos podem
   ser editados. Este formulário pode ser impresso (PDF) ou 
   apenas utilizado durante a edição. 
+
+  ## Requisitos de projeto (o que o gerente exige)
+  
+  - Aplicação via linha de comandos (CLI)
+  - Aplicação gráfica (GUI, seja web ou desktop)
