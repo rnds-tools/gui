@@ -110,3 +110,10 @@ conforme minhas preferências e configurações correspondentes.
 - Converter FSH para JSON e vice-versa.
 - Converter FSH/JSON para os formatos correspondente em XML e Turtle. XML/Turtle são usados apenas para consulta.
 - Exportar instâncias no formato PDF com leiaute e conteúdo atrativos.
+  
+  ## Características de formulários
+  
+  - Cada instância de recurso pode ser apresentada ao projetista
+  por meio de um formulário correspondente, onde os campos podem
+  ser editados. Este formulário pode ser impresso (PDF) ou 
+  apenas utilizado durante a edição. 
