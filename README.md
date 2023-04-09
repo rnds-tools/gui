@@ -30,25 +30,25 @@ ajuste na solução.
 
 ## User stories (requisitos dos projetistas)
 
-- Como designer eu desejo criar instâncias de recursos FHIR para compor minha solução FHIR.
+- Como projetista eu desejo criar instâncias de recursos FHIR para compor minha solução FHIR.
 
-- Como designer eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a 
+- Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a 
 conformidade com o padrão FHIR.
 
-- Como designer eu desejo validar a solução para assegurar que, de fato, estou propondo
-uma solução que atende às especificidades do contexto de uso do FHIR. 
+- Como projetista eu desejo validar a solução para assegurar que, de fato, a proposta de
+ solução atende às especificidades do contexto de uso do FHIR. 
 
-- Como designer eu desejo carregar uma solução previamente criada para acelerar a produção da minha própria solução.
+- Como projetista eu desejo carregar uma solução previamente criada para acelerar a produção da minha própria solução.
 
-- Como desinger eu desejo baixar a solução que estou produzindo para uso por um servidor FHIR.
+- Como projetista eu desejo baixar a solução que estou produzindo para uso por um servidor FHIR.
 
-- Como designer eu desejo fazer associar uma solução a outra para que uma delas se beneficie do que
+- Como projetista eu desejo fazer associar uma solução a outra para que uma delas se beneficie do que
 já está definido na outra, em uma dada versão.
 
-- Como designer eu desejo criar versões das soluções que produzo para assegurar que posso retomar 
+- Como projetista eu desejo criar versões das soluções que produzo para assegurar que posso retomar 
 uma dada versão, se necessário.
 
-- Como designer eu desejo visualizar a solução para facilitar a localização e a compreensão da relação 
+- Como projetista eu desejo visualizar a solução para facilitar a localização e a compreensão da relação 
 entre as instâncias.
 
 - Como projetista eu desejo gerenciar o ADF para que ele esteja disponível no computador e eu possa empregá-lo
