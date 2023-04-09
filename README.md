@@ -3,17 +3,17 @@
 Ambiente de Design FHIR (ADF) é um software que oferece
 funcionalidades para o _design_ de soluções FHIR. 
 O presente projeto tem como finalidade propor 
-uma interface para os usuários do ADF.
+uma interface para os usuários do ADF, ou projetistas.
 
 ## Projetista FHIR (_persona_)
 
 Profissional de saúde ou de tecnologia da informação é o usuário
-típico do ADF.
+típico do ADF, aqui apenas _projetista_.
 
-Este usuário conhece o padrão FHIR, sabe como ele está organizado e o que é preciso para adaptá-lo a um contexto de uso.
+O projetista conhece o padrão FHIR, sabe como ele está organizado e o que é preciso para adaptá-lo a um contexto de uso.
 Não necessariamente possui habilidades de programação. Embora possua conhecimento e certa familiaridade com o padrão, naturalmente é preciso consultar a especificação correspondente em vários cenários. 
 
-A expectativa do usuário é criar rapidamente uma solução (modelagem FHIR) sem ter que recorrer à extensa
+A expectativa dos projetistas é criar rapidamente uma solução (modelagem FHIR) sem ter que recorrer à extensa
 especificação do padrão. 
 
 ## O que é uma solução FHIR (modelagem FHIR)?
@@ -22,7 +22,9 @@ Solução ou _design_ de uso do FHIR é um conjunto de instâncias de recursos F
 Estas instâncias definem como o FHIR deve
 ser utilizado em um determinado cenário de interoperabilidade em saúde.
 De forma simplificada, um recurso pode ser compreendido como um
-"item de informação em saúde". 
+"item de informação em saúde". Projetistas criam 
+instâncias de recursos ou "itens de informação" interconectados,
+em geral, formando uma rede.
 
 Ao longo do processo de _design_ instâncias são criadas, algumas são exemplos. 
 Verificações são feitas durante este processo, idealmente, a cada pequeno
@@ -51,8 +53,8 @@ uma dada versão, se necessário.
 - Como designer eu desejo visualizar a solução para facilitar a localização e a compreensão da relação 
 entre as instâncias.
 
-- Como designer eu desejo configurar o ADF para refletir as opções correntes que melhor atendem 
-às necessidades em questão. 
+- Como projetista eu desejo gerenciar o ADF para que ele esteja disponível no computador e eu possa empregá-lo
+conforme minhas preferências e configurações correspondentes.
 
 
 ## Características administrativas
