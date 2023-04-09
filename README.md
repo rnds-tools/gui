@@ -1,10 +1,9 @@
 ## Objetivo
 
 Ambiente de Design FHIR (ADF) é um software que oferece
-funcionalidades para o _design_ de soluções FHIR.
-
+funcionalidades para o _design_ de soluções FHIR. 
 O presente projeto tem como finalidade propor 
-uma interface para os usuários da ADF.
+uma interface para os usuários do ADF.
 
 ## Projetista FHIR (_persona_)
 
