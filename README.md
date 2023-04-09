@@ -17,7 +17,7 @@ Não necessariamente possui habilidades de programação. Embora possua conhecim
 A expectativa do usuário é criar rapidamente uma solução (modelagem FHIR) sem ter que recorrer à extensa
 especificação do padrão. 
 
-## O que é uma solução?
+## O que é uma solução FHIR (modelagem FHIR)?
 
 Solução ou _design_ de uso do FHIR é um conjunto de instâncias de recursos FHIR. 
 Estas instâncias definem como o FHIR deve
