@@ -1,15 +1,15 @@
 ## Objetivo
 
-Projetistas de soluções FHIR realizam suas atividades
-de modelagem FHIR usando um conjunto disperso de ferramentas, de fornecedores distintos.
-Ambiente de Design (AD) é a proposta de um software para oferecer todas as 
-funcionalidades esperadas por tais projetistas por meio de um único software (serviço). 
-Este projeto tem como finalidade propor uma experiência do usuário para tais
-projetistas em relação ao AD.
+Ambiente de Design FHIR (ADF) é um software que oferece
+funcionalidades para o _design_ de soluções FHIR.
+
+O presente projeto tem como finalidade propor 
+uma interface para os usuários da ADF.
 
 ## Projetista FHIR (_persona_)
 
-Profissional de saúde ou de tecnologia da informação. 
+Profissional de saúde ou de tecnologia da informação é o usuário
+típico do ADF.
 
 Este usuário conhece o padrão FHIR, sabe como ele está organizado e o que é preciso para adaptá-lo a um contexto de uso.
 Não necessariamente possui habilidades de programação. Embora possua conhecimento e certa familiaridade com o padrão, naturalmente é preciso consultar a especificação correspondente em vários cenários. 
@@ -52,16 +52,13 @@ uma dada versão, se necessário.
 - Como designer eu desejo visualizar a solução para facilitar a localização e a compreensão da relação 
 entre as instâncias.
 
-## Características oferecidas pela GUI
-
-Estão organizadas em administrativas e de edição por simplicidade.
 
 ## Características administrativas
 
-- Oferecer as tarefas para instalar/atualizar/verificar/remover o AD, o que significa executar estas tarefas para cada um dos seguintes serviços: (a) terminologias; (b) auth; (c) fshToFhir (conversor); (d) admin (sidecar); (e) validador.
-- Configurar/iniciar/parar os serviços. Por exemplo, configurar terminologias empregadas pelo serviço de terminologias e perfis empregados pelo validador.
-
-- Acompanhar o status dos serviços do AD.
+- Instalar, verificar (se a instalação está "correta") e remover.
+- Iniciar e parar o ADF.
+- Consultar o _status_ da execução do ADF.
+- Configurar as opções de uso do ADF (inclui certificado digital, portas e outros).
 
 ### Características de validação de código
 
