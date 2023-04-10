@@ -10,19 +10,21 @@ uma interface para os usuários do ADF, aqui denominados de projetistas.
 Um projetista é um profissional de saúde ou de tecnologia da informação.
 Projetistas conhecem o padrão FHIR e o que é preciso para adaptá-lo a um contexto de uso.
 
-Um projetista não necessariamente possui habilidades de programação. Embora possua conhecimento e certa familiaridade com o padrão, naturalmente é preciso consultar a especificação correspondente em vários cenários. 
+Um projetista não necessariamente possui habilidades de programação. 
+Embora possua conhecimento e certa familiaridade com o padrão, 
+naturalmente é preciso consultar a especificação correspondente em vários cenários. 
 
 Uma expectativa clara dos projetistas é criar com rapidez e facilidade uma solução (modelagem FHIR). 
 
 ## O que é uma solução FHIR (modelagem FHIR)?
 
 Solução ou _design_ de uso do FHIR é um conjunto de instâncias de recursos FHIR. 
-Estas instâncias definem como o FHIR deve
+Estas instâncias de recursos FHIR, ou simplesmente instâncias, definem como o FHIR deve
 ser utilizado em um determinado cenário de interoperabilidade em saúde.
 De forma simplificada, um recurso pode ser compreendido como um
 "item de informação em saúde". Projetistas criam 
-instâncias de recursos ou "itens de informação" interconectados,
-em geral, formando uma rede.
+instâncias ou "itens de informação" interconectados,
+em geral, formando um grafo.
 
 Ao longo do processo de _design_ instâncias são criadas, algumas são exemplos. 
 Verificações são feitas durante este processo, idealmente, a cada pequeno
