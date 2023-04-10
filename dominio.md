@@ -29,3 +29,7 @@
 - solução pode ser especializada por outra (especializar)
 - solução pode incorporar instâncias definidas em outra (importar)
 - visualizar solução (instâncias formam um grafo)
+- software (versões)
+- dados (versões)
+- instalar/remover/atualizar/verificar software
+- baixar/usar/remover/verificar dados
