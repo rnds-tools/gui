@@ -118,8 +118,7 @@ conforme minhas preferências e configurações correspondentes.
 
 ## Requisitos de projeto (o que o gerente exige)
 
-Devem estar disponíveis duas aplicações, uma via linha de
-comandos (CLI) e outra gráfica, seja web ou desktop. Estas
-aplicações possuem muitas funções em comum, especialmente
-aquelas administrativas como instalar e outras. Por outro
-lado, aquelas de edição estão restritas à versão gráfica.
+Devem estar disponíveis duas aplicações:
+
+- uma via linha de comandos (CLI) para instalação, atualização e outras.
+- uma interface gráfica que contempla as operações via linha de comandos e outras como a edição de instâncias de recursos.
