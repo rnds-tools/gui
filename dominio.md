@@ -35,3 +35,4 @@
 - baixar/usar/remover/verificar dados
 - software (status, estatísticas de uso)
 - configuração do software (certificado digital, portas, diretório de trabalho, versões a serem empregadas)
+- operação de validação de código (há um dado código de um CodeSystem em um dado ValueSet?)
