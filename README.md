@@ -75,9 +75,10 @@ conforme minhas preferências e configurações correspondentes.
 
 - Nesta área de trabalho podem ser depositados arquivos de apenas três formatos distintos: (a) FSH; (b) JSON e (c) XML.
 
-- Em qualquer um destes formatos está o conteúdo pertinente a um dos 154 recursos FHIR distintos. Ou seja, na área de trabalho estão disponíveis arquivos que são instâncias de recursos FHIR, ao todo são mais de 150 tipos distintos. A instância pode estar registrada no formato FSH, JSON ou XML.
+- Na área de trabalho estão disponíveis arquivos que são instâncias de recursos FHIR, ao todo são mais de 150 recursos distintos.
 
-- Existe relacionamentos entre estes arquivos.
+- Existe relacionamentos entre estes arquivos. Por exemplo, uma instância pode incluir referência para um perfil a ser atendido, e/ou referenciar instâncias que 
+juntas formam um grafo de instâncias.
 
 - No diretório principal podem ser criados subdiretórios.
 
