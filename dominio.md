@@ -18,3 +18,14 @@
 - gerir solução (crud) + versões
 - instâncias de recursos (crud)
 - exemplos (instâncias de recursos)
+- verificar solução (conformidade com padrão FHIR)
+- relatório de verificação
+- gerar instâncias de exemplos
+- gerar formulário de instâncias (PDF e HTML)
+- elementos (combinação de elementos formam um recurso)
+- cada elemento possui documentação correspondente editável
+- baixar solução
+- carregar solução
+- solução pode ser especializada por outra (especializar)
+- solução pode incorporar instâncias definidas em outra (importar)
+- visualizar solução (instâncias formam um grafo)
