@@ -54,6 +54,8 @@ entre as instâncias.
 - Como projetista eu desejo gerenciar o ADF para que ele esteja disponível no computador e eu possa empregá-lo
 conforme minhas preferências e configurações correspondentes.
 
+- Como projetista eu desejo fazer buscas na minha solução para facilitar a localização de item de interesse.
+
 
 ### Características administrativas
 
