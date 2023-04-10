@@ -71,7 +71,7 @@ conforme minhas preferências e configurações correspondentes.
 
 ### Características de arquivos
 
-- Cada usuário possui sua própria área de trabalho, um diretório (_folder_). A área de trabalho é um diretório "em nuvem", semelhante a um diretório local de trabalho, mas não está disponível localmente no computador onde a interface gráfica está em execução.
+- Cada usuário possui sua própria "área de trabalho", um "diretório" (_folder_) virtual. Nesta área de trabalho são depositados os arquivos, criados diretórios, renomeados, tudo "virtualmente", ou seja, não é um diretório convencional de um sistema de arquivos como o Windows ou Linux.
 
 - Nesta área de trabalho podem ser depositados arquivos de apenas três formatos distintos: (a) FSH; (b) JSON e (c) XML.
 
