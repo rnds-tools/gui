@@ -33,3 +33,4 @@
 - dados (versões)
 - instalar/remover/atualizar/verificar software
 - baixar/usar/remover/verificar dados
+- software (status, estatísticas de uso)
