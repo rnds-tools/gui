@@ -34,3 +34,4 @@
 - instalar/remover/atualizar/verificar software
 - baixar/usar/remover/verificar dados
 - software (status, estatísticas de uso)
+- configuração do software (certificado digital, portas, diretório de trabalho, versões a serem empregadas)
