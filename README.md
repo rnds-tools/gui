@@ -59,16 +59,13 @@ conforme minhas preferências e configurações correspondentes.
 
 - Instalar, verificar (se a instalação está "correta") e remover.
 - Iniciar e parar o ADF.
-- Consultar o _status_ da execução do ADF.
+- Consultar o _status_ da execução do ADF (monitorar).
 - Configurar as opções de uso do ADF (inclui certificado digital, portas e outros).
+- Configurar as terminologias a serem utilizadas. 
 
 ### Características de validação de código
 
 - Verificar se um determinado código pertence a um dado ValueSet. Para tal é necessário fornecer o código, o ValueSet e também o CodeSystem. Estes três valores são sequências de caracteres.
-
-- O AD é carregado com um conjunto de ValueSets.
-
-- O AD é carregado com um conjunto de CodeSystems.
 
 - Deve-se facilitar a localização da instância desejada, tanto de ValueSet quanto de CodeSystem para efetuar esta operação de validação.
 
