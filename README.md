@@ -62,7 +62,7 @@ conforme minhas preferências e configurações correspondentes.
 - Instalar, verificar (se a instalação está "correta") e remover.
 - Iniciar e parar o ADF.
 - Consultar o _status_ da execução do ADF (monitorar).
-- Configurar as opções de uso do ADF (inclui certificado digital, portas e outros).
+- Configurar as opções de uso do ADF (servidores onde dados estão disponíveis, certificado digital, portas, diretório de trabalho, versões de terminologias e perfis a serem utilizados).
 - Configurar as terminologias a serem utilizadas. 
 
 ### Características de validação de código
