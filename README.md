@@ -40,7 +40,7 @@ conformidade com o padrão FHIR.
 - Como projetista eu desejo validar a solução para assegurar que, de fato, a proposta de
  solução atende às especificidades do contexto de uso do FHIR. 
 
-- Como projetista eu desejo carregar uma solução previamente criada para acelerar a produção da minha própria solução.
+- Como projetista eu desejo incluir as instâncias de uma solução previamente criada para acelerar a produção da minha própria solução.
 
 - Como projetista eu desejo baixar a solução que estou produzindo para uso por um servidor FHIR.
 
