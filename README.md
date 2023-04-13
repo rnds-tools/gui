@@ -34,7 +34,7 @@ ajuste na solução.
 
 - Como projetista eu desejo editar instâncias de recursos FHIR para compor minha solução FHIR.
 
-- Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a 
+- Como projetista eu desejo verificar as instâncias de recursos FHIR, enquanto as edito, para assegurar a 
 conformidade com o padrão FHIR.
 
 - Como projetista eu desejo validar a solução para assegurar que, de fato, a proposta de
