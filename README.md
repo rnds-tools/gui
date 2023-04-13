@@ -44,7 +44,7 @@ conformidade com o padrão FHIR.
 
 - Como projetista eu desejo especializar as instâncias de uma solução previamente criada para acelerar a produção da minha própria solução.
 
-- Como projetista eu desejo baixar a solução que estou produzindo para uso por um servidor FHIR.
+- Como projetista eu desejo baixar a solução que estou produzindo para utilizá-la em um servidor FHIR.
 
 - Como projetista eu desejo fazer associar uma solução a outra para que uma delas se beneficie do que
 já está definido na outra, em uma dada versão.
