@@ -10,60 +10,74 @@ Um projetista é um profissional de saúde ou de tecnologia da informação.
 Projetistas conhecem o padrão FHIR e o que é preciso para adaptá-lo a um contexto de uso.
 
 Um projetista não necessariamente possui habilidades de programação.
-Embora possua conhecimento e certa familiaridade com o padrão,
-naturalmente é preciso consultar a especificação correspondente em vários cenários.
+Embora possua conhecimento e certa familiaridade com o padrão FHIR.
+Em tempo, mesmo "veteranos" precisam consultar a especificação
+do padrão, que é extensa e rica em detalhes.
 
 Uma expectativa clara dos projetistas é criar com rapidez e facilidade uma solução (modelagem FHIR).
 
 ## O que é uma solução FHIR (modelagem FHIR)?
 
-Solução ou _design_ de uso do FHIR é um conjunto de instâncias de recursos FHIR.
+Solução ou _design_ de uso do FHIR é um conjunto de instâncias de recursos (_resources_) FHIR.
 Estas instâncias de recursos FHIR, ou simplesmente instâncias, definem como o FHIR deve
 ser utilizado em um determinado cenário de interoperabilidade em saúde.
-De forma simplificada, um recurso pode ser compreendido como um
-"item de informação em saúde". Projetistas criam
-instâncias ou "itens de informação" interconectados,
-em geral, formando um grafo.
 
-Ao longo do processo de _design_ instâncias são criadas, algumas são exemplos.
-Verificações são feitas durante este processo, idealmente, a cada pequeno
-ajuste na solução.
+E o que é um recurso (_resource_) FHIR?
+É uma estrutura de dados para registro de um "item de informação em saúde".
+Todo recurso pode ser adaptado, elementos podem ser acrescentados, removidos e
+restrições sobre os itens de dados estabelecidas.
+
+Uma solução ou _design_ de uso do FHIR pode agora ser redefinido como
+um grafo de "itens de informação" adaptados. É um grafo porque recursos
+estabelecem referências entre si.
+
+Ao longo do processo de _design_ instâncias são criadas, algumas
+são meramente ilustrativas. Verificações são feitas durante este processo,
+idealmente, a cada pequeno ajuste na solução.
 
 ## User stories (requisitos dos projetistas)
 
 - Como projetista eu desejo editar instâncias de recursos FHIR para compor minha solução FHIR.
 
-- Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a
-  conformidade com o padrão FHIR.
+- Como projetista eu desejo verificar, à medida que faço mudanças, as instâncias de recursos FHIR que edito para assegurar a conformidade com o padrão FHIR.
 
 - Como projetista eu desejo validar a solução para assegurar que, de fato, a proposta de
   solução atende às especificidades do contexto de uso do FHIR.
 
-- Como projetista eu desejo carregar uma solução previamente criada para acelerar a produção da minha própria solução.
+- Como projetista eu desejo reutilizar as instâncias de uma solução, por exemplo, refiná-las, para acelerar a produção da minha própria solução derivada.
 
-- Como projetista eu desejo baixar a solução que estou produzindo para uso por um servidor FHIR.
+- Como projetista eu desejo baixar a solução que estou produzindo para que possa ser utilizada por um servidor FHIR.
 
-- Como projetista eu desejo fazer associar uma solução a outra para que uma delas se beneficie do que
-  já está definido na outra, em uma dada versão.
+- Como projetista eu desejo especializar uma solução para estabelecer restrições adicionais necessárias para um dado contexto de uso.
 
-- Como projetista eu desejo criar versões das soluções que produzo para assegurar que posso retomar
-  uma dada versão, se necessário.
+- Como projetista, ao longo do processo de _design_, eu desejo criar versões de uma solução para assegurar que posso retomar a uma dada versão, se necessário.
 
-- Como projetista eu desejo visualizar a solução para facilitar a localização e a compreensão da relação
-  entre as instâncias.
+- Como projetista eu desejo visualizar uma solução para facilitar a localização e a compreensão da relação
+  entre as instâncias (grafo).
 
-- Como projetista eu desejo gerenciar o ADF para que ele esteja disponível no computador e eu possa empregá-lo
-  conforme minhas preferências e configurações correspondentes.
+- Como projetista eu desejo consultar detalhes de elementos de um recurso FHIR, sem necessariamente consultar a especificação FHIR, para agilizar a edição dos recursos de uma solução.
 
 - Como projetista eu desejo fazer buscas na minha solução para facilitar a localização de item de interesse.
+
+- Como projetista eu desejo que o ADF se comporte conforme minhas preferências e configurações para adequadamente realizar meu trabalho de _design_.
+
+## Requisitos de projeto (o que o gerente exige)
+
+Devem estar disponíveis três aplicações:
+
+- uma via linha de comandos (CLI) para atender características administrativas.
+- uma interface gráfica para as mesmas funcionalidades da CLI (acima).
+- uma interface gráfica que contempla as operações fim (criação do _design_ de uso do FHIR).
 
 ### Características administrativas
 
 - Instalar, verificar (se a instalação está "correta") e remover.
 - Iniciar e parar o ADF.
 - Consultar o _status_ da execução do ADF (monitorar).
-- Configurar as opções de uso do ADF (servidores onde dados estão disponíveis, certificado digital, portas, diretório de trabalho, versões de terminologias e perfis a serem utilizados).
-- Configurar as terminologias a serem utilizadas.
+- Configurar as opções de uso do ADF (servidores onde dados estão disponíveis, certificado digital, portas, diretório de trabalho).
+- Configurar as terminologias disponíveis para uso.
+- Configurar os perfis disponíveis para uso.
+- Configurar soluções disponíveis para uso.
 
 ### Características de validação de código
 
@@ -125,10 +139,3 @@ ajuste na solução.
   ser editados.
 - Formulário pode ser exportado (PDF e PNG) ou
   apenas utilizado durante a edição.
-
-## Requisitos de projeto (o que o gerente exige)
-
-Devem estar disponíveis duas aplicações:
-
-- uma via linha de comandos (CLI) para instalação, atualização e outras.
-- uma interface gráfica que contempla as operações via linha de comandos e outras como a edição de instâncias de recursos.
