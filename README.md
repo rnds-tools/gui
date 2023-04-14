@@ -67,8 +67,8 @@ idealmente, a cada pequeno ajuste na solução.
 
 Devem estar disponíveis três aplicações:
 
-- uma via linha de comandos (CLI) para atender características administrativas.
-- uma interface gráfica para as mesmas funcionalidades da CLI (acima).
+- uma via linha de comandos (CLI) que implementa as características administrativas e atende cenários onde uma interface gráfica não pode ser utilizada.
+- uma interface gráfica que implementa as características administrativas à semelhança da interface CLI.
 - uma interface gráfica que contempla as operações fim (criação do _design_ de uso do FHIR).
 
 ### Características administrativas
