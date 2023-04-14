@@ -38,7 +38,7 @@ idealmente, a cada pequeno ajuste na solução.
 
 ## User stories (requisitos dos projetistas)
 
-- Como projetista eu desejo editar instâncias de recursos FHIR para compor minha solução FHIR.
+- Como projetista eu desejo editar instâncias de recursos FHIR para criar minha solução FHIR.
 
 - Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a
   conformidade com o padrão FHIR.
