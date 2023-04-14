@@ -2,7 +2,8 @@
 
 Ambiente de Design FHIR (ADF) é um software que oferece
 funcionalidades para o _design_ de soluções FHIR.
-Este _design_ é realizado por projetistas.
+O presente projeto tem como finalidade propor
+uma interface para os usuários do ADF, aqui denominados de projetistas.
 
 ## Projetista FHIR (_persona_)
 
@@ -39,14 +40,15 @@ idealmente, a cada pequeno ajuste na solução.
 
 - Como projetista eu desejo editar instâncias de recursos FHIR para compor minha solução FHIR.
 
-- Como projetista eu desejo verificar, à medida que faço mudanças, as instâncias de recursos FHIR que edito para assegurar a conformidade com o padrão FHIR.
+- Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a
+  conformidade com o padrão FHIR.
 
 - Como projetista eu desejo validar a solução para assegurar que, de fato, a proposta de
   solução atende às especificidades do contexto de uso do FHIR.
 
-- Como projetista eu desejo reutilizar as instâncias de uma solução, por exemplo, refiná-las, para acelerar a produção da minha própria solução derivada.
+- Como projetista eu desejo carregar uma solução previamente criada para acelerar a produção da minha própria solução.
 
-- Como projetista eu desejo baixar a solução que estou produzindo para que possa ser utilizada por um servidor FHIR.
+- Como projetista eu desejo baixar a solução que estou produzindo para uso por um servidor FHIR.
 
 - Como projetista eu desejo especializar uma solução para estabelecer restrições adicionais necessárias para um dado contexto de uso.
 
