@@ -28,7 +28,7 @@ E o que é um recurso (_resource_) FHIR?
 Todo recurso pode ser adaptado, elementos podem ser acrescentados, removidos e
 restrições sobre os itens de dados estabelecidas.
 
-Uma solução ou _design_ de uso do FHIR pode agora ser redefinido como
+Uma solução ou _design_ de uso do FHIR pode agora ser redefinida como
 um grafo de "itens de informação" adaptados. É um grafo porque recursos
 estabelecem referências entre si.
 
