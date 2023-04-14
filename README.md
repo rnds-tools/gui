@@ -7,6 +7,12 @@ uma interface para os usuários do ADF, aqui denominados de projetistas.
 
 > FHIR é um padrão para troca de dados em saúde, adotado pelo Brasil (https://www.hl7.org/fhir/r4/).
 
+## Importante
+
+Tudo o que segue é resultado de esforço ainda inacabado, incompleto e, portanto, é natural ajustes. 
+Como em boa parte dos projetos reais, não sabemos exatamente onde vamos chegar, mas temos
+algumas orientações.
+
 ## Projetista FHIR (_persona_)
 
 Um projetista é um profissional de saúde ou de tecnologia da informação.
