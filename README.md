@@ -1,32 +1,31 @@
 ## Objetivo
 
 Ambiente de Design FHIR (ADF) é um software que oferece
-funcionalidades para o _design_ de soluções FHIR. 
-O presente projeto tem como finalidade propor 
-uma interface para os usuários do ADF, aqui denominados de projetistas.
+funcionalidades para o _design_ de soluções FHIR.
+Este _design_ é realizado por projetistas.
 
 ## Projetista FHIR (_persona_)
 
 Um projetista é um profissional de saúde ou de tecnologia da informação.
 Projetistas conhecem o padrão FHIR e o que é preciso para adaptá-lo a um contexto de uso.
 
-Um projetista não necessariamente possui habilidades de programação. 
-Embora possua conhecimento e certa familiaridade com o padrão, 
-naturalmente é preciso consultar a especificação correspondente em vários cenários. 
+Um projetista não necessariamente possui habilidades de programação.
+Embora possua conhecimento e certa familiaridade com o padrão,
+naturalmente é preciso consultar a especificação correspondente em vários cenários.
 
-Uma expectativa clara dos projetistas é criar com rapidez e facilidade uma solução (modelagem FHIR). 
+Uma expectativa clara dos projetistas é criar com rapidez e facilidade uma solução (modelagem FHIR).
 
 ## O que é uma solução FHIR (modelagem FHIR)?
 
-Solução ou _design_ de uso do FHIR é um conjunto de instâncias de recursos FHIR. 
+Solução ou _design_ de uso do FHIR é um conjunto de instâncias de recursos FHIR.
 Estas instâncias de recursos FHIR, ou simplesmente instâncias, definem como o FHIR deve
 ser utilizado em um determinado cenário de interoperabilidade em saúde.
 De forma simplificada, um recurso pode ser compreendido como um
-"item de informação em saúde". Projetistas criam 
+"item de informação em saúde". Projetistas criam
 instâncias ou "itens de informação" interconectados,
 em geral, formando um grafo.
 
-Ao longo do processo de _design_ instâncias são criadas, algumas são exemplos. 
+Ao longo do processo de _design_ instâncias são criadas, algumas são exemplos.
 Verificações são feitas durante este processo, idealmente, a cada pequeno
 ajuste na solução.
 
@@ -34,30 +33,29 @@ ajuste na solução.
 
 - Como projetista eu desejo editar instâncias de recursos FHIR para compor minha solução FHIR.
 
-- Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a 
-conformidade com o padrão FHIR.
+- Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a
+  conformidade com o padrão FHIR.
 
 - Como projetista eu desejo validar a solução para assegurar que, de fato, a proposta de
- solução atende às especificidades do contexto de uso do FHIR. 
+  solução atende às especificidades do contexto de uso do FHIR.
 
 - Como projetista eu desejo carregar uma solução previamente criada para acelerar a produção da minha própria solução.
 
 - Como projetista eu desejo baixar a solução que estou produzindo para uso por um servidor FHIR.
 
 - Como projetista eu desejo fazer associar uma solução a outra para que uma delas se beneficie do que
-já está definido na outra, em uma dada versão.
+  já está definido na outra, em uma dada versão.
 
-- Como projetista eu desejo criar versões das soluções que produzo para assegurar que posso retomar 
-uma dada versão, se necessário.
+- Como projetista eu desejo criar versões das soluções que produzo para assegurar que posso retomar
+  uma dada versão, se necessário.
 
-- Como projetista eu desejo visualizar a solução para facilitar a localização e a compreensão da relação 
-entre as instâncias.
+- Como projetista eu desejo visualizar a solução para facilitar a localização e a compreensão da relação
+  entre as instâncias.
 
 - Como projetista eu desejo gerenciar o ADF para que ele esteja disponível no computador e eu possa empregá-lo
-conforme minhas preferências e configurações correspondentes.
+  conforme minhas preferências e configurações correspondentes.
 
 - Como projetista eu desejo fazer buscas na minha solução para facilitar a localização de item de interesse.
-
 
 ### Características administrativas
 
@@ -65,7 +63,7 @@ conforme minhas preferências e configurações correspondentes.
 - Iniciar e parar o ADF.
 - Consultar o _status_ da execução do ADF (monitorar).
 - Configurar as opções de uso do ADF (servidores onde dados estão disponíveis, certificado digital, portas, diretório de trabalho, versões de terminologias e perfis a serem utilizados).
-- Configurar as terminologias a serem utilizadas. 
+- Configurar as terminologias a serem utilizadas.
 
 ### Características de validação de código
 
@@ -79,8 +77,8 @@ conforme minhas preferências e configurações correspondentes.
 
 - Na área de trabalho estão disponíveis arquivos que são instâncias de recursos FHIR, ao todo são mais de 150 recursos distintos.
 
-- Existe relacionamentos entre estes arquivos. Por exemplo, uma instância pode incluir referência para um perfil a ser atendido, e/ou referenciar instâncias que 
-juntas formam um grafo de instâncias.
+- Existe relacionamentos entre estes arquivos. Por exemplo, uma instância pode incluir referência para um perfil a ser atendido, e/ou referenciar instâncias que
+  juntas formam um grafo de instâncias.
 
 - No diretório principal podem ser criados subdiretórios.
 
@@ -96,25 +94,37 @@ juntas formam um grafo de instâncias.
 
 ### Características de edição
 
-- Editar instâncias de recursos FHIR, doravante apenas instâncias.
+- Editar instâncias de recursos.
+
 - Edição deve contemplar os formatos FSH e JSON. Ou seja, trata-se
-  de edição de arquivo texto.
+  de edição de arquivo texto. O formato XML não poderá ser editado, trata-se
+  apenas de uma opção de visualização.
+
 - Edição FSH deve oferecer recursos IntelliSense com lista de opções inteligentes, por exemplo, ao digitar ref<tab> onde se espera uma referência é completado com Reference(x) e o cursor piscando onde está o x com uma lista de opções correspondentes ao contexto em questão.
+
 - Edição inclui a validação do conteúdo em relação ao formato FSH ou JSON.
-- Edição inclui a validação do conteúdo em relação à conformidade com eventuais perfis utilizados.
+
+- Edição inclui a verificação do conteúdo em relação à conformidade com eventuais perfis utilizados.
+
 - Edição deve sinalizar com mínima interferência do usuário, a ocorrência de erros e não conformidades.
+
 - Edição deve contemplar a geração "automática" (template) de instâncias conforme o recurso e o perfil a ser observado, o que facilita a edição. Ou seja, JSON/FSH já "preenchido" com valores espúrios.
+
 - Edição deve oferecer alternativa gráfica para a criação da instância. Ou seja, tela gráfica gerada conforme o perfil em questão, em vez da edição de texto. Neste caso, o usuário preenche os "campos" da tela gerada, o que é empregado para alimentar a versão JSON/FSH.
+
 - Converter FSH para JSON e vice-versa.
-- Converter FSH/JSON para os formatos correspondente em XML e Turtle. XML/Turtle são usados apenas para consulta.
+
+- Converter conteúdo em FSH/JSON para conteúdo correspondente no formato XML.
+
 - Exportar instâncias no formato PDF com leiaute e conteúdo atrativos.
-  
+
 ### Características de formulários
-  
-  - Cada instância de recurso pode ser apresentada ao projetista
+
+- Cada instância de recurso pode ser apresentada ao projetista
   por meio de um formulário correspondente, onde os campos podem
-  ser editados. Este formulário pode ser impresso (PDF) ou 
-  apenas utilizado durante a edição. 
+  ser editados.
+- Formulário pode ser exportado (PDF e PNG) ou
+  apenas utilizado durante a edição.
 
 ## Requisitos de projeto (o que o gerente exige)
 

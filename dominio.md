@@ -21,7 +21,8 @@
 - verificar solução (conformidade com padrão FHIR)
 - relatório de verificação
 - gerar instâncias de exemplos
-- gerar formulário de instâncias (PDF e HTML)
+- gerar formulário de instâncias que pode ser preenchido a partir dos campos
+- formulário pode ser exportado para PDF ou PNG
 - elementos (combinação de elementos formam um recurso)
 - cada elemento possui documentação correspondente editável
 - baixar solução
