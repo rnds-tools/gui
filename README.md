@@ -75,8 +75,8 @@ Devem estar disponíveis três aplicações:
 
 - Instalar, verificar (se a instalação está "correta") e remover.
 - Iniciar e parar o ADF.
-- Consultar o _status_ da execução do ADF (monitorar).
-- Configurar as opções de uso do ADF (servidores onde dados estão disponíveis, certificado digital, portas, diretório de trabalho).
+- Consultar o _status_ da execução do ADF (monitorar registros de _log_).
+- Configurar as opções de uso do ADF. A saber: servidores onde dados estão disponíveis (versões dos dados); (b) certificado digital (empregado para acesso ao servidor FHIR); (c) portas empregadas pelos serviços; (d) diretório de trabalho.
 - Configurar as terminologias disponíveis para uso.
 - Configurar os perfis disponíveis para uso.
 - Configurar soluções disponíveis para uso.
@@ -87,20 +87,16 @@ Devem estar disponíveis três aplicações:
 
 ### Características de arquivos
 
-- Cada usuário possui sua própria "área de trabalho", um "diretório" (_folder_) virtual. Nesta área de trabalho são depositados os arquivos, criados diretórios, renomeados, tudo "virtualmente", ou seja, não é um diretório convencional de um sistema de arquivos como o Windows ou Linux.
+- Cada usuário possui sua própria "área de trabalho", um "diretório" (_folder_) virtual. Nesta área de trabalho são depositados os arquivos, criados diretórios/subdiretórios, renomeados, tudo "virtualmente", ou seja, não é um diretório convencional de um sistema de arquivos como o Windows ou Linux.
 
-- Nesta área de trabalho podem ser depositados arquivos de apenas três formatos distintos: (a) FSH; (b) JSON e (c) XML.
+- Nesta área de trabalho virtual residem arquivos de apenas três formatos distintos: (a) FSH; (b) JSON e (c) XML.
 
 - Na área de trabalho estão disponíveis arquivos que são instâncias de recursos FHIR, ao todo são mais de 150 recursos distintos.
 
 - Existe relacionamentos entre estes arquivos. Por exemplo, uma instância pode incluir referência para um perfil a ser atendido, e/ou referenciar instâncias que
   juntas formam um grafo de instâncias.
 
-- No diretório principal podem ser criados subdiretórios.
-
-- Arquivos são criados em qualquer diretório da área de trabalho do usuário.
-
-- Pode-se realizar o _download_ de arquivos e/ou diretórios. O download de um arquivo pode ser feito em vários formatos: (a) PDF; (b) FSH; (c) JSON ou (d) XML.
+- Pode-se realizar o _download_ de arquivos e/ou diretórios. O download de um arquivo pode ser feito em vários formatos: (a) PDF; (b) FSH; (c) JSON.
 
 - O _download_ de um diretório será reunido em um único arquivo no formato zip.
 
