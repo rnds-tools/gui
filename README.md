@@ -9,7 +9,7 @@ uma interface para os usuários do ADF, aqui denominados de projetistas.
 
 ## Importante
 
-Tudo o que segue é resultado de esforço ainda inacabado, incompleto e, portanto, é natural ajustes. 
+Tudo o que segue é resultado de esforço ainda inacabado, incompleto e, portanto, serão naturais as ocorrências de ajustes.
 Como em boa parte dos projetos reais, não sabemos exatamente onde vamos chegar, mas temos
 algumas orientações.
 
