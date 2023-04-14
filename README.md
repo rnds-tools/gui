@@ -132,8 +132,7 @@ Devem estar disponíveis três aplicações:
 
 ### Características de formulários
 
-- Cada instância de recurso pode ser apresentada ao projetista
-  por meio de um formulário correspondente, onde os campos podem
-  ser editados.
-- Formulário pode ser exportado (PDF e PNG) ou
-  apenas utilizado durante a edição.
+ A estrutura de dados, item de informação em saúde ou recurso pode ser interpretada como um formulário, formado por campos de tipos predefinidos. Adicionalmente, convém ressaltar, cada recurso pode ser estendido com campos também de tipos predefinidos. Neste contexto é importante gerar dinamicamente um formulário correspondente para que possa ser visualizado. 
+  
+
+  
