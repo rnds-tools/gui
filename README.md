@@ -10,8 +10,8 @@ para o _design_ de uma interface para os usuários do ADF, aqui denominados de p
 Um projetista é um profissional de saúde ou de tecnologia da informação.
 Projetistas conhecem o padrão FHIR e o que é preciso para adaptá-lo a um contexto de uso.
 
-Um projetista não necessariamente possui habilidades de programação.
-Embora possua conhecimento e certa familiaridade com o padrão FHIR.
+Um projetista não necessariamente possui habilidades de programação, 
+embora possua conhecimento e certa familiaridade com o padrão FHIR.
 Em tempo, mesmo "veteranos" precisam consultar a especificação
 do padrão, que é extensa e rica em detalhes.
 
