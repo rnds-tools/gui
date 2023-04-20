@@ -1,0 +1,25 @@
+@startuml c4-container
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+HIDE_STEREOTYPE()
+SHOW_PERSON_OUTLINE()
+
+AddRelTag("invisivel", $textColor="white", $lineColor="white", $lineStyle = DashedLine())
+
+Person(admin, "Administrador")
+
+System_Boundary(c1, "ST") {
+    Container(cli, "Aplicativo CLI", "Linha de comandos", "Configuração e consulta")
+    Container(st, "ST", "API Spring Boot", "FHIR Terminology Service")
+    ContainerDb(db, "Terminologias", "Códigos e índices", "Dados locais")
+}
+
+System_Ext(cliente, "Sistema cliente", "Realiza operações de consulta")
+System_Ext(deposito, "Depósito", "Fonte de terminologias")
+
+Rel_D(cli, db, "usa")
+Rel_L(cli, deposito, "usa")
+Rel(cliente, st, "FHIR", "HTTPS")
+Rel_D(st, db, "Usa")
+Rel_D(admin, cli, "Gere")
+
+@enduml
