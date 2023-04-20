@@ -71,6 +71,8 @@ Devem estar disponíveis três aplicações:
 - uma interface gráfica que implementa as características administrativas à semelhança da interface CLI.
 - uma interface gráfica que contempla as operações fim (criação do _design_ de uso do FHIR).
 
+## Características (_features_) esperadas
+
 ### Características administrativas
 
 - Instalar, verificar (se a instalação está "correta") e remover.
