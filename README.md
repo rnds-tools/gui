@@ -63,7 +63,7 @@ idealmente, a cada pequeno ajuste na solução.
 
 - Como projetista eu desejo que o ADF se comporte conforme minhas preferências e configurações para adequadamente realizar meu trabalho de _design_.
 
-## Requisitos de projeto (o que o gerente exige)
+## Outros requisitos (o que o gerente exige)
 
 Devem estar disponíveis três aplicações:
 
