@@ -1,4 +1,4 @@
-@startuml c4-container
+@startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 HIDE_STEREOTYPE()
 SHOW_PERSON_OUTLINE()
@@ -7,10 +7,21 @@ AddRelTag("invisivel", $textColor="white", $lineColor="white", $lineStyle = Dash
 
 Person(admin, "Persona")
 
-System_Boundary(c1, "ST") {
+System_Boundary(c1, "ADF") {
     Container(cli, "Aplicativo CLI", "Linha de comandos", "Configuração e consulta")
-    Container(gui, "ST", "API Spring Boot", "FHIR Terminology Service")
-    ContainerDb(guicli, "Terminologias", "Códigos e índices", "Dados locais")
+    Container(gui, "GUI", "Web", "Atividades fim")
+    Container(guicli, "GUI para CLI", "Desktop", "Versão gráfica")
+
+Boundary(ux, "UX Design") {
+    Container(cliux, "Design Aplicativo")
+    Container(guiux, "Design GUI")
+    Container(guicliux, "Design CLI")
+
+    Rel_R(guicliux, cliux, "usa")
 }
 
-@enduml
+    Rel(guicli, guicliux, "definido por")
+    Rel(cli, cliux, "definido por")
+    Rel(gui, guiux, "definido por")
+}
+
