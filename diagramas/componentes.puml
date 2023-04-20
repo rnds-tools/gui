@@ -25,3 +25,10 @@ Boundary(ux, "UX Design") {
     Rel(gui, guiux, "definido por")
 }
 
+
+Rel_R(guicli, cli, "usa")
+Rel(admin, gui, "usa")
+Rel(admin, cli, "usa")
+Rel(admin, guicli, "usa")
+
+@enduml
