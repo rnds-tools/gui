@@ -7,27 +7,21 @@ uma interface para os usuários do ADF, aqui denominados de projetistas.
 
 ## Projetista FHIR (_persona_)
 
-O usuário do ADF, ou projetista é, em geral, um profissional de saúde.
-São estes profissionais que possuem a formação em saúde, conhecimento
-necessário para o _design_ de uso do FHIR.
-
-Projetistas conhecem o padrão FHIR e o que é preciso para adaptá-lo a 
-um contexto de uso.
-
-> A especificação do padrão FHIR na versão adotada pelo Brasil está 
-> disponível em https://www.hl7.org/fhir/r4/. 
+Um projetista é um profissional de saúde ou de tecnologia da informação.
+Projetistas conhecem o padrão FHIR e o que é preciso para adaptá-lo a um contexto de uso.
 
 Um projetista não necessariamente possui habilidades de programação.
 Embora possua conhecimento e certa familiaridade com o padrão FHIR.
+Em tempo, mesmo "veteranos" precisam consultar a especificação
+do padrão, que é extensa e rica em detalhes.
 
-Uma expectativa clara dos projetistas é criar com rapidez e 
-facilidade uma solução (modelagem FHIR).
+Uma expectativa clara dos projetistas é criar com rapidez e facilidade uma solução (modelagem FHIR).
 
 ## O que é uma solução FHIR (modelagem FHIR)?
 
 Solução ou _design_ de uso do FHIR é um conjunto de instâncias de recursos (_resources_) FHIR.
 Estas instâncias de recursos FHIR, ou simplesmente instâncias, definem como o FHIR deve
-ser utilizado em determinado cenário de interoperabilidade em saúde.
+ser utilizado em um determinado cenário de interoperabilidade em saúde.
 
 E o que é um recurso (_resource_) FHIR?
 É uma estrutura de dados para registro de um "item de informação em saúde".
@@ -35,34 +29,16 @@ Todo recurso pode ser adaptado, elementos podem ser acrescentados, removidos e
 restrições sobre os itens de dados estabelecidas.
 
 Uma solução ou _design_ de uso do FHIR pode agora ser redefinido como
-um conjunto de "itens de informação" adaptados pelo projetista.
-Em geral, estas instâncias estabelecem relações entre elas formando um grafo.
+um grafo de "itens de informação" adaptados. É um grafo porque recursos
+estabelecem referências entre si.
 
-## Quais as instâncias de recursos que fazem parte de uma solução?
-
-O FHIR define mais de uma centana de recursos, contudo, quando se 
-faz uma adaptação quatro (4) deles são "especiais":
-
-- CodeSystem
-- ValueSet
-- ConceptMap
-- StructureDefinition
-
-O projetista cria instâncias destes recursos. Em particular,
-o StructureDefinition é empregado para estabelecer as adaptações necessárias
-nos recursos predefinidos pelo FHIR para atender um domínio específico. Ou seja, é 
-uma instância de StructureDefinition que permite estabelecer as 
-adaptações em qualquer recurso FHIR. Por exemplo, se é necessário 
-estender o recurso Patient com uma informação, então será criada uma
-instância de StructureDefinition para estabelecer esta extensão do
-recurso Patient.
-
-Os demais recursos citados acima, CodeSystem, ValueSet e ConceptMap 
-registram dados terminológicos empregados pelas adaptações.
+Ao longo do processo de _design_ instâncias são criadas, algumas
+são meramente ilustrativas. Verificações são feitas durante este processo,
+idealmente, a cada pequeno ajuste na solução.
 
 ## User stories (requisitos dos projetistas)
 
-- Como projetista eu desejo editar instâncias de recursos FHIR para compor minha solução FHIR.
+- Como projetista eu desejo editar instâncias de recursos FHIR para criar minha solução FHIR.
 
 - Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a
   conformidade com o padrão FHIR.
@@ -87,20 +63,24 @@ registram dados terminológicos empregados pelas adaptações.
 
 - Como projetista eu desejo que o ADF se comporte conforme minhas preferências e configurações para adequadamente realizar meu trabalho de _design_.
 
-## Requisitos de projeto (o que o gerente exige)
+## Outros requisitos (o que o gerente exige)
 
 Devem estar disponíveis três aplicações:
 
-- uma via linha de comandos (CLI) para atender características administrativas.
-- uma interface gráfica para as mesmas funcionalidades da CLI (acima).
+- uma via linha de comandos (CLI) que implementa as características administrativas e atende cenários onde uma interface gráfica não pode ser utilizada.
+- uma interface gráfica que implementa as características administrativas à semelhança da interface CLI.
 - uma interface gráfica que contempla as operações fim (criação do _design_ de uso do FHIR).
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/rnds-tools/gui/main/diagramas/componentes.puml)
+
+## Características (_features_) esperadas
 
 ### Características administrativas
 
 - Instalar, verificar (se a instalação está "correta") e remover.
 - Iniciar e parar o ADF.
-- Consultar o _status_ da execução do ADF (monitorar).
-- Configurar as opções de uso do ADF (servidores onde dados estão disponíveis, certificado digital, portas, diretório de trabalho).
+- Consultar o _status_ da execução do ADF (monitorar registros de _log_).
+- Configurar as opções de uso do ADF. A saber: servidores onde dados estão disponíveis (versões dos dados); (b) certificado digital (empregado para acesso ao servidor FHIR); (c) portas empregadas pelos serviços; (d) diretório de trabalho.
 - Configurar as terminologias disponíveis para uso.
 - Configurar os perfis disponíveis para uso.
 - Configurar soluções disponíveis para uso.
@@ -111,20 +91,16 @@ Devem estar disponíveis três aplicações:
 
 ### Características de arquivos
 
-- Cada usuário possui sua própria "área de trabalho", um "diretório" (_folder_) virtual. Nesta área de trabalho são depositados os arquivos, criados diretórios, renomeados, tudo "virtualmente", ou seja, não é um diretório convencional de um sistema de arquivos como o Windows ou Linux.
+- Cada usuário possui sua própria "área de trabalho", um "diretório" (_folder_) virtual. Nesta área de trabalho são depositados os arquivos, criados diretórios/subdiretórios, renomeados, tudo "virtualmente", ou seja, não é um diretório convencional de um sistema de arquivos como o Windows ou Linux.
 
-- Nesta área de trabalho podem ser depositados arquivos de apenas três formatos distintos: (a) FSH; (b) JSON e (c) XML.
+- Nesta área de trabalho virtual residem arquivos de apenas três formatos distintos: (a) FSH; (b) JSON e (c) XML.
 
 - Na área de trabalho estão disponíveis arquivos que são instâncias de recursos FHIR, ao todo são mais de 150 recursos distintos.
 
 - Existe relacionamentos entre estes arquivos. Por exemplo, uma instância pode incluir referência para um perfil a ser atendido, e/ou referenciar instâncias que
   juntas formam um grafo de instâncias.
 
-- No diretório principal podem ser criados subdiretórios.
-
-- Arquivos são criados em qualquer diretório da área de trabalho do usuário.
-
-- Pode-se realizar o _download_ de arquivos e/ou diretórios. O download de um arquivo pode ser feito em vários formatos: (a) PDF; (b) FSH; (c) JSON ou (d) XML.
+- Pode-se realizar o _download_ de arquivos e/ou diretórios. O download de um arquivo pode ser feito em vários formatos: (a) PDF; (b) FSH; (c) JSON.
 
 - O _download_ de um diretório será reunido em um único arquivo no formato zip.
 
@@ -160,8 +136,7 @@ Devem estar disponíveis três aplicações:
 
 ### Características de formulários
 
-- Cada instância de recurso pode ser apresentada ao projetista
-  por meio de um formulário correspondente, onde os campos podem
-  ser editados.
-- Formulário pode ser exportado (PDF e PNG) ou
-  apenas utilizado durante a edição.
+ A estrutura de dados, item de informação em saúde ou recurso pode ser interpretada como um formulário, formado por campos de tipos predefinidos. Adicionalmente, convém ressaltar, cada recurso pode ser estendido com campos também de tipos predefinidos. Neste contexto é importante gerar dinamicamente um formulário correspondente para que possa ser visualizado. 
+  
+
+  

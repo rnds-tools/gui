@@ -1,0 +1,34 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+HIDE_STEREOTYPE()
+SHOW_PERSON_OUTLINE()
+
+AddRelTag("invisivel", $textColor="white", $lineColor="white", $lineStyle = DashedLine())
+
+Person(admin, "Persona")
+
+System_Boundary(c1, "ADF") {
+    Container(cli, "Aplicativo CLI", "Linha de comandos", "Configuração e consulta")
+    Container(gui, "GUI", "Web", "Atividades fim")
+    Container(guicli, "GUI para CLI", "Desktop", "Versão gráfica")
+
+Boundary(ux, "UX Design") {
+    Container(cliux, "Design Aplicativo")
+    Container(guiux, "Design GUI")
+    Container(guicliux, "Design CLI")
+
+    Rel_R(guicliux, cliux, "usa")
+}
+
+    Rel(guicli, guicliux, "definido por")
+    Rel(cli, cliux, "definido por")
+    Rel(gui, guiux, "definido por")
+}
+
+
+Rel_R(guicli, cli, "usa")
+Rel(admin, gui, "usa")
+Rel(admin, cli, "usa")
+Rel(admin, guicli, "usa")
+
+@enduml
