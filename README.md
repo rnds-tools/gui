@@ -7,21 +7,27 @@ uma interface para os usuários do ADF, aqui denominados de projetistas.
 
 ## Projetista FHIR (_persona_)
 
-Um projetista é um profissional de saúde ou de tecnologia da informação.
-Projetistas conhecem o padrão FHIR e o que é preciso para adaptá-lo a um contexto de uso.
+O usuário do ADF, ou projetista é, em geral, um profissional de saúde.
+São estes profissionais que possuem a formação em saúde, conhecimento
+necessário para o _design_ de uso do FHIR.
+
+Projetistas conhecem o padrão FHIR e o que é preciso para adaptá-lo a 
+um contexto de uso.
+
+> A especificação do padrão FHIR na versão adotada pelo Brasil está 
+> disponível em https://www.hl7.org/fhir/r4/. 
 
 Um projetista não necessariamente possui habilidades de programação.
 Embora possua conhecimento e certa familiaridade com o padrão FHIR.
-Em tempo, mesmo "veteranos" precisam consultar a especificação
-do padrão, que é extensa e rica em detalhes.
 
-Uma expectativa clara dos projetistas é criar com rapidez e facilidade uma solução (modelagem FHIR).
+Uma expectativa clara dos projetistas é criar com rapidez e 
+facilidade uma solução (modelagem FHIR).
 
 ## O que é uma solução FHIR (modelagem FHIR)?
 
 Solução ou _design_ de uso do FHIR é um conjunto de instâncias de recursos (_resources_) FHIR.
 Estas instâncias de recursos FHIR, ou simplesmente instâncias, definem como o FHIR deve
-ser utilizado em um determinado cenário de interoperabilidade em saúde.
+ser utilizado em determinado cenário de interoperabilidade em saúde.
 
 E o que é um recurso (_resource_) FHIR?
 É uma estrutura de dados para registro de um "item de informação em saúde".
@@ -29,12 +35,30 @@ Todo recurso pode ser adaptado, elementos podem ser acrescentados, removidos e
 restrições sobre os itens de dados estabelecidas.
 
 Uma solução ou _design_ de uso do FHIR pode agora ser redefinido como
-um grafo de "itens de informação" adaptados. É um grafo porque recursos
-estabelecem referências entre si.
+um conjunto de "itens de informação" adaptados pelo projetista.
+Em geral, estas instâncias estabelecem relações entre elas formando um grafo.
 
-Ao longo do processo de _design_ instâncias são criadas, algumas
-são meramente ilustrativas. Verificações são feitas durante este processo,
-idealmente, a cada pequeno ajuste na solução.
+## Quais as instâncias de recursos que fazem parte de uma solução?
+
+O FHIR define mais de uma centana de recursos, contudo, quando se 
+faz uma adaptação quatro (4) deles são "especiais":
+
+- CodeSystem
+- ValueSet
+- ConceptMap
+- StructureDefinition
+
+O projetista cria instâncias destes recursos. Em particular,
+o StructureDefinition é empregado para estabelecer as adaptações necessárias
+nos recursos predefinidos pelo FHIR para atender um domínio específico. Ou seja, é 
+uma instância de StructureDefinition que permite estabelecer as 
+adaptações em qualquer recurso FHIR. Por exemplo, se é necessário 
+estender o recurso Patient com uma informação, então será criada uma
+instância de StructureDefinition para estabelecer esta extensão do
+recurso Patient.
+
+Os demais recursos citados acima, CodeSystem, ValueSet e ConceptMap 
+registram dados terminológicos empregados pelas adaptações.
 
 ## User stories (requisitos dos projetistas)
 
