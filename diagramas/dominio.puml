@@ -1,0 +1,52 @@
+@startuml dominio
+
+hide circle
+hide methods
+hide empty members
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor Black
+    BorderColor #505050
+}
+
+class Solução {
+    CNS
+}
+
+class Arquivo {
+    nome
+}
+
+class Recurso {
+}
+
+class Terminologia {
+}
+
+class CodeSystem {
+}
+
+class ValueSet {
+}
+
+class ConceptMap {
+}
+
+class NamingSystem {
+}
+
+class StructureDefininition {
+}
+
+Terminologia -up-|> Recurso
+StructureDefininition -up-|> Recurso
+CodeSystem -up-|> Terminologia
+ValueSet -up-|> Terminologia
+ConceptMap -up-|> Terminologia
+NamingSystem -up-|> Terminologia
+
+Arquivo -right-> Recurso : "Registra\ninstância de"
+Solução *-right-> Arquivo : "Registra\ninstância de"
+
+@enduml

@@ -36,6 +36,10 @@ Ao longo do processo de _design_ instâncias são criadas, algumas
 são meramente ilustrativas. Verificações são feitas durante este processo,
 idealmente, a cada pequeno ajuste na solução.
 
+O diagrama abaixo esclarece a composição de uma solução.
+
+![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/rnds-tools/gui/main/diagramas/dominio.puml)
+
 ## User stories (requisitos dos projetistas)
 
 - Como projetista eu desejo editar instâncias de recursos FHIR para criar minha solução FHIR.
