@@ -11,11 +11,19 @@ skinparam class {
 }
 
 class Solução {
-    CNS
 }
 
 class Arquivo {
     nome
+}
+
+class Json {
+}
+
+class FSH {
+}
+
+class XML {
 }
 
 class Recurso {
@@ -47,6 +55,10 @@ ConceptMap -up-|> Terminologia
 NamingSystem -up-|> Terminologia
 
 Arquivo -right-> Recurso : "Registra\ninstância de"
-Solução *-right-> Arquivo : "Registra\ninstância de"
+Solução *-right-> Arquivo
+
+XML -up-|> Arquivo
+Json -up-|> Arquivo
+FSH -up-|> Arquivo
 
 @enduml
