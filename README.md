@@ -36,9 +36,14 @@ Ao longo do processo de _design_ instâncias são criadas, algumas
 são meramente ilustrativas. Verificações são feitas durante este processo,
 idealmente, a cada pequeno ajuste na solução.
 
-O diagrama abaixo esclarece a composição de uma solução.
+O diagrama abaixo esclarece a composição de uma solução, além de ilustrar
+que o projetista cria uma solução ao "criar arquivos" nos formatos JSON, XML ou FSH.
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/rnds-tools/gui/main/diagramas/dominio.puml)
+
+> IMPORTANTE: convém esclarecer que a figura acima é o conteúdo 
+> de uma solução e, não necessariamente, exige que o projetista sequer tenha
+> que fazer uso direto destes formatos de arquivos.
 
 ## User stories (requisitos dos projetistas)
 
@@ -128,7 +133,7 @@ Devem estar disponíveis três aplicações:
 
 - Edição deve sinalizar com mínima interferência do usuário, a ocorrência de erros e não conformidades.
 
-- Edição deve contemplar a geração "automática" (template) de instâncias conforme o recurso e o perfil a ser observado, o que facilita a edição. Ou seja, JSON/FSH já "preenchido" com valores espúrios.
+- Edição deve contemplar a geração "automática" (_template_) de instâncias conforme o recurso e o perfil a ser observado, o que facilita a edição. Ou seja, JSON/FSH já "preenchido" com valores espúrios.
 
 - Edição deve oferecer alternativa gráfica para a criação da instância. Ou seja, tela gráfica gerada conforme o perfil em questão, em vez da edição de texto. Neste caso, o usuário preenche os "campos" da tela gerada, o que é empregado para alimentar a versão JSON/FSH.
 
