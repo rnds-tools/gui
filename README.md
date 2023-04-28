@@ -13,8 +13,7 @@ uma interface para os usuários do ADF, aqui denominados de projetistas.
 
 FSH é uma linguagem que permite criar instâncias de recursos e
 FHIRPath é uma linguagem tanto de consulta quanto para definição de 
-restrições sobre recursos FHIR. FHIRPath é empregada como parte 
-da adaptação do FHIR.
+restrições sobre recursos FHIR.
 
 ## Projetista FHIR (_persona_)
 
@@ -62,7 +61,7 @@ que o projetista cria uma solução ao "criar arquivos" nos formatos JSON, XML o
 - Como projetista eu desejo editar instâncias de recursos FHIR para criar minha solução FHIR.
 
 - Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a
-  conformidade com o padrão FHIR.
+  conformidade com o padrão FHIR e com as restrições que estabeleci.
 
 - Como projetista eu desejo validar a solução para assegurar que, de fato, a proposta de
   solução atende às especificidades do contexto de uso do FHIR.
@@ -133,6 +132,8 @@ Devem estar disponíveis três aplicações:
 
 - Editar instâncias de recursos.
 
+- Avaliar uma expressão em FHIRPath para uma determinada instância.
+
 - Edição deve contemplar os formatos FSH e JSON. Ou seja, trata-se
   de edição de arquivo texto. O formato XML não poderá ser editado, trata-se
   apenas de uma opção de visualização.
@@ -154,6 +155,8 @@ Devem estar disponíveis três aplicações:
 - Converter conteúdo em FSH/JSON para conteúdo correspondente no formato XML.
 
 - Exportar instâncias no formato PDF com leiaute e conteúdo atrativos.
+
+- Efetuar operação de consulta em terminologia, seja disponível localmente, editada pelo próprio projetista ou disponível em servidor remoto.
 
 ### Características de formulários
 
