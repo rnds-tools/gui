@@ -5,10 +5,22 @@ funcionalidades para o _design_ de soluções FHIR.
 O presente projeto tem como finalidade propor
 uma interface para os usuários do ADF, aqui denominados de projetistas.
 
+## Referências
+
+- Padrão FHIR: https://hl7.org/fhir/r4
+- FHIR Shorthand (FSH): https://hl7.org/fhir/uv/shorthand/reference.html
+- FHIRPath: http://hl7.org/fhirpath/N1/
+
+FSH é uma linguagem que permite criar instâncias de recursos e
+FHIRPath é uma linguagem tanto de consulta quanto para definição de 
+restrições sobre recursos FHIR. FHIRPath é empregada como parte 
+da adaptação do FHIR.
+
 ## Projetista FHIR (_persona_)
 
 Um projetista é um profissional de saúde ou de tecnologia da informação.
-Projetistas conhecem o padrão FHIR e o que é preciso para adaptá-lo a um contexto de uso.
+Projetistas conhecem o padrão FHIR, FSH, FHIRPath e o que é 
+preciso para adaptar o padrão a um contexto de uso.
 
 Um projetista não necessariamente possui habilidades de programação.
 Embora possua conhecimento e certa familiaridade com o padrão FHIR.
