@@ -1,4 +1,8 @@
-## Conceitos do domínio
+## Arquitetura da informação
+
+### Inventário
+
+Tudo o que será exibido na interface
 
 - solução
 - contexto (da interoperabilidade)
