@@ -1,8 +1,8 @@
-## Arquitetura da informação
+## Arquitetura da informação (esboço)
 
 ### Inventário
 
-Tudo o que será exibido na interface
+Tudo o que será exibido na interface, arquivos, visualizações, ...
 
 - solução
 - contexto (da interoperabilidade)
@@ -42,3 +42,10 @@ Tudo o que será exibido na interface
 - configuração do software (certificado digital, portas, diretório de trabalho, versões de terminologias e perfis a serem utilizados)
 - operação de validação de código (há um dado código de um CodeSystem em um dado ValueSet?)
 - área de trabalho, criar subdiretórios, renomeá-los, movê-los, ...
+
+
+### Categorias
+
+Cada item do inventário agora é classificado em uma categoria (rótulo).
+Ou seja, são "agrupados". Esta classificação deve ser tal que o projetista
+deve encontrar facilmente o que está procurando.
