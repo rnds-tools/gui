@@ -49,3 +49,8 @@ Tudo o que será exibido na interface, arquivos, visualizações, ...
 Cada item do inventário agora é classificado em uma categoria (rótulo).
 Ou seja, são "agrupados". Esta classificação deve ser tal que o projetista
 deve encontrar facilmente o que está procurando.
+
+### Navegação
+
+Defina como o projetista irá navegar por todos os itens do inventário. Inclui
+menus, botões e links. 
