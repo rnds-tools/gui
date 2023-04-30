@@ -5,15 +5,9 @@ funcionalidades para o _design_ de soluções FHIR.
 O presente projeto tem como finalidade propor
 uma interface para os usuários do ADF, aqui denominados de projetistas.
 
-## Referências
-
-- Padrão FHIR: https://hl7.org/fhir/r4
-- FHIR Shorthand (FSH): https://hl7.org/fhir/uv/shorthand/reference.html
-- FHIRPath: http://hl7.org/fhirpath/N1/
-
-FSH é uma linguagem que permite criar instâncias de recursos e
-FHIRPath é uma linguagem tanto de consulta quanto para definição de 
-restrições sobre recursos FHIR.
+> UX Designers não precisam dominar o padrão FHR, 
+> contudo, alguma noção é necessária. Consulte 
+> [aqui](fhir.md) para algumas orientações sobre o padrão.
 
 ## Projetista FHIR (_persona_)
 
