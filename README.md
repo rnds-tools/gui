@@ -12,7 +12,7 @@ uma interface para os usuários do ADF, aqui denominados de projetistas.
 ## Projetista FHIR (_persona_)
 
 Um projetista é um profissional de saúde ou de tecnologia da informação.
-Projetistas conhecem o padrão FHIR, FSH, FHIRPath e o que é 
+Projetistas conhecem o padrão FHIR, FSH, FHIRPath e o que mais for  
 preciso para adaptar o padrão a um contexto de uso.
 
 Um projetista não necessariamente possui habilidades de programação.
