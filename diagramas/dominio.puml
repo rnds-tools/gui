@@ -10,6 +10,11 @@ skinparam class {
     BorderColor #505050
 }
 
+class Conta {
+    usuario
+    senha
+}
+
 class Solução {
 }
 
@@ -56,6 +61,7 @@ NamingSystem -up-|> Terminologia
 
 Arquivo -right-> Recurso : "Registra\ninstância de"
 Solução *-right-> Arquivo
+Solução "1" -left-> Conta
 
 XML -up-|> Arquivo
 Json -up-|> Arquivo
