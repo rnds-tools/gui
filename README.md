@@ -52,6 +52,8 @@ que o projetista cria uma solução ao "criar arquivos" nos formatos JSON, XML o
 
 ## User stories (requisitos dos projetistas)
 
+- Como projetista eu desejo me identificar para que minhas soluções e demais dados possam ser recuperados.
+
 - Como projetista eu desejo editar instâncias de recursos FHIR para criar minha solução FHIR.
 
 - Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a
