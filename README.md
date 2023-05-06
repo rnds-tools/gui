@@ -5,8 +5,8 @@ funcionalidades para o _design_ de soluções FHIR.
 O presente projeto tem como finalidade propor
 uma interface para os usuários do ADF, aqui denominados de projetistas.
 
-> UX Designers não precisam dominar o padrão FHR, 
-> contudo, alguma noção é necessária. Consulte 
+> UX Designers não precisam dominar o padrão FHR,
+> contudo, alguma noção é necessária. Consulte
 > [aqui](fhir.md) para algumas orientações sobre o padrão.
 
 ## Projetista FHIR (_persona_)
@@ -20,7 +20,7 @@ Embora possua conhecimento e certa familiaridade com o padrão FHIR.
 Em tempo, mesmo "veteranos" precisam consultar a especificação
 do padrão, que é extensa e rica em detalhes.
 
-Uma expectativa clara dos projetistas é criar com rapidez e facilidade uma solução (modelagem FHIR).
+> A expectativa dos projetistas é criar com rapidez e facilidade uma solução (modelagem FHIR).
 
 ## O que é uma solução FHIR (modelagem FHIR)?
 
@@ -46,7 +46,7 @@ que o projetista cria uma solução ao "criar arquivos" nos formatos JSON, XML o
 
 ![modelo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/rnds-tools/gui/main/diagramas/dominio.puml)
 
-> IMPORTANTE: convém esclarecer que a figura acima é o conteúdo 
+> IMPORTANTE: convém esclarecer que a figura acima é o conteúdo
 > de uma solução e, não necessariamente, exige que o projetista sequer tenha
 > que fazer uso direto destes formatos de arquivos.
 
@@ -156,7 +156,4 @@ Devem estar disponíveis três aplicações:
 
 ### Características de formulários
 
- A estrutura de dados, item de informação em saúde ou recurso pode ser interpretada como um formulário, formado por campos de tipos predefinidos. Adicionalmente, convém ressaltar, cada recurso pode ser estendido com campos também de tipos predefinidos. Neste contexto é importante gerar dinamicamente um formulário correspondente para que possa ser visualizado. 
-  
-
-  
+A estrutura de dados, item de informação em saúde ou recurso pode ser interpretada como um formulário, formado por campos de tipos predefinidos. Adicionalmente, convém ressaltar, cada recurso pode ser estendido com campos também de tipos predefinidos. Neste contexto é importante gerar dinamicamente um formulário correspondente para que possa ser visualizado.

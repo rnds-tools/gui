@@ -49,7 +49,7 @@ class ConceptMap {
 class NamingSystem {
 }
 
-class StructureDefininition {
+class StructureDefinition {
 }
 
 Terminologia -up-|> Recurso
