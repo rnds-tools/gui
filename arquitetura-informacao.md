@@ -55,4 +55,22 @@ deve encontrar facilmente o que está procurando.
 Defina como o projetista irá navegar por todos os itens do inventário. Inclui
 menus, botões e links. O foco, contudo, não é o aspecto visual, mas a jornada.
 
-Segue uma proposta preliminar [aqui](https://www.figma.com/file/6ebDkUG2dNp4DtLZiuufat/Ambiente-FHIR?type=design&node-id=83%3A0&t=PRIFKs14NjGMglqE-1)
+Há muitas formas de se registrar isso. Segue uma proposta inicial [aqui](https://www.figma.com/file/6ebDkUG2dNp4DtLZiuufat/Ambiente-FHIR?type=design&node-id=83%3A0&t=PRIFKs14NjGMglqE-1) usando Figma. 
+
+Eu prefiro, neste momento, simplesmente registrar os fluxos...
+
+#### Antes de "entrar"
+
+- Landing page (recepção do usuário ou potencial usuário) com opção para cadastro ou login.
+- Registrar novo usuário usando login social (google, facebook, ...)
+- Registrar novo usuário usando email
+
+#### Após "entrar" (sem solução aberta)
+
+- Abrir solução
+- Criar solução
+- Atualizar cadastro do usuário (nome, ...)
+
+#### Editando solução
+
+- Verificar código (por exemplo, A90 é código para a Dengue, usando a terminologia CID10). Localizar?
