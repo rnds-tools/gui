@@ -70,7 +70,9 @@ Eu prefiro, neste momento, simplesmente registrar os fluxos...
 - Abrir solução
 - Criar solução
 - Atualizar cadastro do usuário (nome, ...)
+- Sair (logout)
 
-#### Editando solução
+#### Solução aberta
 
 - Verificar código (por exemplo, A90 é código para a Dengue, usando a terminologia CID10). Localizar?
+- Localizar por texto ou parte de texto. A busca será feita sobre nome de recursos, diretórios, ou seja, metadados ou dados, conteúdo das instâncias dos recursos, ...
