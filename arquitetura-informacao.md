@@ -50,7 +50,9 @@ Cada item do inventário agora é classificado em uma categoria (rótulo).
 Ou seja, são "agrupados". Esta classificação deve ser tal que o projetista
 deve encontrar facilmente o que está procurando.
 
-### Navegação
+### Navegação (_user flow_)
 
 Defina como o projetista irá navegar por todos os itens do inventário. Inclui
-menus, botões e links. 
+menus, botões e links. O foco, contudo, não é o aspecto visual, mas a jornada.
+
+Segue uma proposta preliminar [aqui](https://www.figma.com/file/6ebDkUG2dNp4DtLZiuufat/Ambiente-FHIR?type=design&node-id=83%3A0&t=PRIFKs14NjGMglqE-1)
