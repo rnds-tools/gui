@@ -9,6 +9,12 @@ uma interface para os usuários do ADF, aqui denominados de projetistas.
 > contudo, alguma noção é necessária. Consulte
 > [aqui](fhir.md) para algumas orientações sobre o padrão.
 
+## Produtos similares
+
+- https://trifolia-fhir-dev.lantanagroup.com/lantana_hapi_stu3/home
+- http://gb2.clinfhir.com/
+- https://fire.ly/products/forge/
+
 ## Projetista FHIR (_persona_)
 
 Um projetista é um profissional de saúde ou de tecnologia da informação.
