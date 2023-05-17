@@ -53,7 +53,7 @@ class StructureDefinition {
 }
 
 Terminologia -up-|> Recurso
-StructureDefininition -up-|> Recurso
+StructureDefinition -up-|> Recurso
 CodeSystem -up-|> Terminologia
 ValueSet -up-|> Terminologia
 ConceptMap -up-|> Terminologia
