@@ -54,6 +54,7 @@ class StructureDefinition {
 
 Terminologia -up-|> Recurso
 StructureDefinition -up-|> Recurso
+StructureDefinition ..> Recurso : Estabelece\nrestrições
 CodeSystem -up-|> Terminologia
 ValueSet -up-|> Terminologia
 ConceptMap -up-|> Terminologia
@@ -66,5 +67,8 @@ Solução "1" -left-> Conta
 XML -up-|> Arquivo
 Json -up-|> Arquivo
 FSH -up-|> Arquivo
+
+note "Existem mais de 100 recursos,\naqui seguem 5 deles." as Nota
+Recurso .right. Nota
 
 @enduml
