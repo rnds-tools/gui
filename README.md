@@ -32,7 +32,9 @@ do padrão, que é extensa e rica em detalhes.
 
 Solução ou _design_ de uso do FHIR é um conjunto de instâncias de recursos (_resources_) FHIR.
 Estas instâncias de recursos FHIR, ou simplesmente instâncias, definem como o FHIR deve
-ser utilizado em um determinado cenário de interoperabilidade em saúde.
+ser utilizado em um determinado cenário de interoperabilidade em saúde. Estas instâncias
+definem dados terminológicos (terminologias), perfis (instâncias do recurso StructureDefinition)
+e exemplos.
 
 E o que é um recurso (_resource_) FHIR?
 É uma estrutura de dados para registro de um "item de informação em saúde".
