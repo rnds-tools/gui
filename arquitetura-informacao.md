@@ -27,6 +27,7 @@ Tudo o que será exibido na interface, arquivos, visualizações, ...
 - CRUD instâncias que são exemplos (ilustração)
 - CRUD perfis (StructureDefinition)
 - Associar ValueSet a elemento de recurso
+- Identificar a conformidade de uma instância a zero ou mais StructureDefinition (perfis).
 - exemplos (instâncias de recursos)
 - verificar solução (conformidade com padrão FHIR)
 - relatório de verificação
