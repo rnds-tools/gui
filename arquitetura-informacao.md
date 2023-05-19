@@ -1,8 +1,6 @@
 ## Arquitetura da informação (esboço)
 
-### Inventário
-
-Tudo o que será exibido na interface, arquivos, visualizações, ...
+### Inventário (o que faz parte)
 
 - _solução_
 - _contexto_ (da interoperabilidade)
@@ -57,6 +55,14 @@ Organização das informações, rótulos e operações.
 - obter/atualizar/remover terminologias
 - obter/atualizar/remover perfis
 
+#### Área de trabalho
+
+- Organização da solução em pastas
+- Criar diretório
+- Renomear
+- Mover
+- Remover
+
 #### Instância
 
 - Acrescentar extensão
@@ -64,13 +70,6 @@ Organização das informações, rótulos e operações.
 - Alterar cardinalidade
 - Documentar elemento
 - Definir regra
-
-#### Estrutura
-
-- Criar diretório
-- Renomear
-- Mover
-- Remover
 
 #### Executar
 
