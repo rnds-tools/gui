@@ -7,9 +7,9 @@ Tudo o que será exibido na interface, arquivos, visualizações, ...
 - _solução_
 - _contexto_ (da interoperabilidade)
 - _autores_ (email, conta)
-- arquivos
-- diretórios
-- perfis
+- _arquivos_
+- _diretórios_
+- perfis (instâncias de StructureDefinition)
 - terminologias
 - recursos
 - instâncias de recursos
@@ -62,6 +62,7 @@ deve encontrar facilmente o que está procurando.
 - Importar (incorporar à solução em uso)
 - Exportar solução em uso (PDF, zip, html)
 - Criar (fornecer metadados como contexto, autores, instituição e outros)
+- Navegar/consultar o conteúdo da solução (arquivos distribuídos em "pastas")
 
 ### Navegação (_user flow_)
 
