@@ -4,9 +4,9 @@
 
 Tudo o que será exibido na interface, arquivos, visualizações, ...
 
-- solução
-- contexto (da interoperabilidade)
-- autores (email, conta)
+- _solução_
+- _contexto_ (da interoperabilidade)
+- _autores_ (email, conta)
 - arquivos
 - diretórios
 - perfis
@@ -14,6 +14,7 @@ Tudo o que será exibido na interface, arquivos, visualizações, ...
 - recursos
 - instâncias de recursos
 - linguagem fhirpath
+- avaliação de expressões em FHIRPath
 - JSON (edição)
 - XML (exibição)
 - Turtle (exibição)
@@ -21,6 +22,11 @@ Tudo o que será exibido na interface, arquivos, visualizações, ...
 - documentação de recurso (portal do FHIR)
 - gerir solução (crud) + versões
 - instâncias de recursos (crud)
+- CRUD CodeSystem
+- CRUD ValueSet
+- CRUD instâncias que são exemplos (ilustração)
+- CRUD perfis (StructureDefinition)
+- Associar ValueSet a elemento de recurso
 - exemplos (instâncias de recursos)
 - verificar solução (conformidade com padrão FHIR)
 - relatório de verificação
@@ -49,6 +55,13 @@ Tudo o que será exibido na interface, arquivos, visualizações, ...
 Cada item do inventário agora é classificado em uma categoria (rótulo).
 Ou seja, são "agrupados". Esta classificação deve ser tal que o projetista
 deve encontrar facilmente o que está procurando.
+
+#### Solução
+
+- Baixar (_download_)
+- Importar (incorporar à solução em uso)
+- Exportar solução em uso (PDF, zip, html)
+- Criar (fornecer metadados como contexto, autores, instituição e outros)
 
 ### Navegação (_user flow_)
 
