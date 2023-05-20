@@ -1,16 +1,16 @@
-## User stories (requisitos dos projetistas)
+## História de usuário
 
-- Como projetista eu desejo me identificar para que minhas soluções e demais dados possam ser recuperados.
+- HU Como projetista eu desejo me identificar para que minhas soluções e demais dados possam ser recuperados.
 
 - Como projetista eu desejo editar instâncias de recursos FHIR para criar minha solução FHIR.
 
 - Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a
-  conformidade com o padrão FHIR e com as restrições que estabeleci.
+  conformidade com o padrão FHIR e com perfis estabelecidos.
 
-- Como projetista eu desejo validar a solução para assegurar que, de fato, a proposta de
+- Como projetista eu desejo criar exemplos de instâncias e validá-las para assegurar que, de fato, a proposta de
   solução atende às especificidades do contexto de uso do FHIR.
 
-- Como projetista eu desejo carregar uma solução previamente criada para acelerar a produção da minha própria solução.
+- Como projetista eu desejo manter várias soluções simultaneamente e carregar aquela desejada para edição.
 
 - Como projetista eu desejo baixar a solução que estou produzindo para uso por um servidor FHIR.
 

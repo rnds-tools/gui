@@ -63,6 +63,13 @@ Organização das informações, rótulos e operações.
 - Mover pasta
 - Remover pasta
 
+### Autenticação
+
+- login
+- logout
+- cadastro
+- recuperação de senha
+
 ### Instância
 
 - Selecionar recurso (tipo) da instância
@@ -118,16 +125,18 @@ Organização das informações, rótulos e operações.
 - Tipos de dados (elementos)
 - Terminologias (predefinidas)
 - Perfis (predefinidos)
+- Localizar por nome, parte do nome, atributo, documentação, ...
 
 ### Solução
 
-- Metadados (nome do autor, email, descrição)
-- Instâncias (conforme estruturadas em pastas)
+- Soluções criadas pelo usuário
+- Criar solução vazia é definir metadados (nome do autor, email, descrição)
+- Criar instâncias na solução (conforme estruturadas em pastas)
 - Baixar (_download_)
-- Importar/carregar (incorporar à solução em uso)
-- Exportar solução em uso (PDF, zip, html)
-- CRUD (fornecer metadados como contexto, autores, instituição e outros)
-- Navegar/consultar o conteúdo da solução (arquivos distribuídos em "pastas")
+- Importar/carregar instância (incorporar à solução em uso)
+- Importar/carregar solução (incorporar à solução em uso)
+- Exportar solução em uso ou subconjunto (PDF, zip, html)
+- Navegar/consultar o conteúdo da solução (arquivos distribuídos em pastas)
 
 ### Status, estatísticas e informações
 
