@@ -4,10 +4,10 @@
 
 - HU Como projetista eu desejo editar instâncias de recursos FHIR para criar minha solução FHIR.
 
-- Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a
+- HU Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a
   conformidade com o padrão FHIR e com perfis estabelecidos.
 
-- Como projetista eu desejo criar exemplos de instâncias e validá-las para assegurar que, de fato, a proposta de
+- HU Como projetista eu desejo criar exemplos de instâncias e validá-las para assegurar que, de fato, a proposta de
   solução atende às especificidades do contexto de uso do FHIR.
 
 - Como projetista eu desejo manter várias soluções simultaneamente e carregar aquela desejada para edição.

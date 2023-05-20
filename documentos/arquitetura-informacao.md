@@ -70,16 +70,14 @@ Organização das informações, rótulos e operações.
 - cadastro
 - recuperação de senha
 
-### Instância
+### Elemento
 
-- Selecionar recurso (tipo) da instância
-- Editar elemento de recurso (atributo)
-  - Acrescentar extensão
-  - Remover extensão
-  - Alterar cardinalidade
-  - Documentar elemento
-  - Definir regra
-  - Consultar padrão (conforme documentado)
+- Acrescentar extensão
+- Remover extensão
+- Alterar cardinalidade
+- Documentar elemento
+- Definir regra
+- Consultar documentação
 
 ### Executar
 
@@ -94,23 +92,30 @@ Organização das informações, rótulos e operações.
 - Instância (um item da solução)
 - Subconjunto da solução
 
+### Extensão
+
+- Definir url
+- Definir tipo
+- Localizar tipo
+- Identificar tipo por valor
+- Verificar (fornecer valor)
+- Gerar valores de exemplo
+
 ### FHIRPath
 
 - Executar expressão
 - Consultar documentação
 
-### Instâncias
+### Instância
 
-- CRUD instância
-  - Perfis
-  - Terminologias
-  - Exemplos
-- Gerar instâncias
+- Gerar exemplos
 - Validar
 - Status de validação (continuamente atualizado)
 - Visão gráfica (grafo)
 - Visão gráfica (formulário)
 - Exportar (PDF, png)
+- Adicinar perfil a ser atendido (exemplo)
+- Adicionar extensão
 
 ### Perfis (StructureDefinition)
 
@@ -138,7 +143,9 @@ Organização das informações, rótulos e operações.
 
 ### Solução (aberta)
 
-- Criar instâncias na solução (conforme estruturadas em pastas)
+- Criar instância
+  - Selecionar recurso (tipo da instância)
+  - Selecionar tipo (exemplo, especialização ou restrição)
 - Baixar (_download_)
 - Importar/carregar instância (incorporar à solução em uso)
 - Importar/carregar solução (incorporar à solução em uso)
@@ -147,13 +154,14 @@ Organização das informações, rótulos e operações.
   - Organização por arquivos (em pastas)
   - Organização por tipo de instância
 
-### Status, estatísticas e informações
+### Configurações
 
 - Uso
 - Conexão com a internet
 - Total de elementos da solução
 - Versão
 - Perfis e terminologias disponíveis
+- Configurações empregadas
 
 ### Terminologias
 
@@ -175,18 +183,24 @@ Há muitas formas de se registrar isso. Segue uma proposta inicial [aqui](https:
 
 Eu prefiro, neste momento, simplesmente registrar os fluxos...
 
-### Antes de "entrar"
+### Cadastrar usuário
 
-- Landing page (recepção do usuário ou potencial usuário) com opção para cadastro ou login.
-- Registrar novo usuário usando login social (google, facebook, ...)
-- Registrar novo usuário usando email
+- Vá para a landing page
+- Faça o cadastro (conta via email ou social)
+- Leias as informações sobre autorização do cadastro,
+  pois exige confirmação do email e outros.
 
-### Após "entrar" (sem solução aberta)
+### Login
 
-- Abrir solução
-- Criar solução
-- Atualizar cadastro do usuário (nome, ...)
-- Sair (logout)
+- Vá para a landing page
+- Faça o login (conta) ou conta social (google, facebook, ...)
+- Obtém acesso as soluções do usuário.
+
+### Abrir solução
+
+- Vá para a página de soluções
+- Faça busca para localizar a solução desejada, se for o caso.
+- Selecione a solução.
 
 ### Solução aberta
 
