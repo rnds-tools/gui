@@ -127,16 +127,25 @@ Organização das informações, rótulos e operações.
 - Perfis (predefinidos)
 - Localizar por nome, parte do nome, atributo, documentação, ...
 
-### Solução
+### Soluções do usuário
 
 - Soluções criadas pelo usuário
-- Criar solução vazia é definir metadados (nome do autor, email, descrição)
+- Criar solução vazia (nome do autor, email, descrição)
+- Renomear
+- Remover
+- Exportar
+- Importar
+
+### Solução (aberta)
+
 - Criar instâncias na solução (conforme estruturadas em pastas)
 - Baixar (_download_)
 - Importar/carregar instância (incorporar à solução em uso)
 - Importar/carregar solução (incorporar à solução em uso)
 - Exportar solução em uso ou subconjunto (PDF, zip, html)
-- Navegar/consultar o conteúdo da solução (arquivos distribuídos em pastas)
+- Navegar/consultar o conteúdo da solução
+  - Organização por arquivos (em pastas)
+  - Organização por tipo de instância
 
 ### Status, estatísticas e informações
 

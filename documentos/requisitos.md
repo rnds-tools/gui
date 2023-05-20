@@ -1,8 +1,8 @@
 ## História de usuário
 
-- HU Como projetista eu desejo me identificar para que minhas soluções e demais dados possam ser recuperados.
+- HU Como projetista eu desejo me identificar para que minhas soluções, configurações e preferências estejam disponíveis.
 
-- Como projetista eu desejo editar instâncias de recursos FHIR para criar minha solução FHIR.
+- HU Como projetista eu desejo editar instâncias de recursos FHIR para criar minha solução FHIR.
 
 - Como projetista eu desejo verificar as instâncias de recursos FHIR que crio para assegurar a
   conformidade com o padrão FHIR e com perfis estabelecidos.
@@ -24,8 +24,6 @@
 - Como projetista eu desejo consultar detalhes de elementos de um recurso FHIR, sem necessariamente consultar a especificação FHIR, para agilizar a edição dos recursos de uma solução.
 
 - Como projetista eu desejo fazer buscas na minha solução para facilitar a localização de item de interesse.
-
-- Como projetista eu desejo que o ADF se comporte conforme minhas preferências e configurações para adequadamente realizar meu trabalho de _design_.
 
 ## Outros requisitos (o que o gerente exige)
 
