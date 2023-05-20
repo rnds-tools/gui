@@ -121,7 +121,7 @@ Organização das informações, rótulos e operações.
 
 ### Solução
 
-- Metadados (autor, email, ...)
+- Metadados (nome do autor, email, descrição)
 - Instâncias (conforme estruturadas em pastas)
 - Baixar (_download_)
 - Importar/carregar (incorporar à solução em uso)
