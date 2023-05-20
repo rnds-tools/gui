@@ -52,6 +52,9 @@ class NamingSystem {
 class StructureDefinition {
 }
 
+class Elemento {}
+class Extensão {}
+
 Terminologia -up-|> Recurso
 StructureDefinition -up-|> Recurso
 StructureDefinition ..> Recurso : Estabelece\nrestrições
@@ -71,4 +74,6 @@ FSH -up-|> Arquivo
 note "Existem mais de 100 recursos,\naqui seguem 5 deles." as Nota
 Recurso .right. Nota
 
+Recurso -up-> Elemento
+Elemento *-right-> "0..*" Extensão : Contém
 @enduml

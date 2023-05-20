@@ -1,6 +1,6 @@
-## Arquitetura da informação (esboço)
+# Arquitetura da informação (esboço)
 
-### Inventário (o que faz parte)
+## Inventário (o que faz parte)
 
 - _solução_
 - _contexto_ (da interoperabilidade)
@@ -41,55 +41,58 @@
 - operação de validação de código (há um dado código de um CodeSystem em um dado ValueSet?)
 - área de trabalho, criar subdiretórios, renomeá-los, movê-los, ...
 
-### Categorias
+## Categorias
 
 Organização das informações, rótulos e operações.
 
-#### Administração
+### Administração
 
 - instalar/remover/atualizar/verificar software
 - baixar/usar/remover/verificar dados
-- configurar ertificado digital (usado pelo Serviço de Terminologias)
+- configurar certificado digital (usado pelo Serviço de Terminologias)
 - configurar portas dos serviços
 - definir diretório de trabalho
 - obter/atualizar/remover terminologias
 - obter/atualizar/remover perfis
 
-#### Área de trabalho
+### Área de trabalho
 
-- Organização da solução em pastas
-- Criar diretório
-- Renomear
-- Mover
-- Remover
+- Organizar solução em pastas
+- Criar pasta
+- Renomear pasta
+- Mover pasta
+- Remover pasta
 
-#### Instância
+### Instância
 
-- Acrescentar extensão
-- Remover extensão
-- Alterar cardinalidade
-- Documentar elemento
-- Definir regra
+- Selecionar recurso (tipo) da instância
+- Editar elemento de recurso (atributo)
+  - Acrescentar extensão
+  - Remover extensão
+  - Alterar cardinalidade
+  - Documentar elemento
+  - Definir regra
+  - Consultar padrão (conforme documentado)
 
-#### Executar
+### Executar
 
 - Validação (com FHIR e perfil)
 - Expressão em FHIRPath
 - FSH para Json
 - Json de/para XML
 
-#### Exportar
+### Exportar
 
 - Solução (toda ela)
 - Instância (um item da solução)
 - Subconjunto da solução
 
-#### FHIRPath
+### FHIRPath
 
 - Executar expressão
 - Consultar documentação
 
-#### Instâncias
+### Instâncias
 
 - CRUD instância
   - Perfis
@@ -102,13 +105,13 @@ Organização das informações, rótulos e operações.
 - Visão gráfica (formulário)
 - Exportar (PDF, png)
 
-#### Perfis (StructureDefinition)
+### Perfis (StructureDefinition)
 
 - Extensões
 - Especializações
 - Restrições
 
-#### Recursos (FHIR)
+### Recursos (FHIR)
 
 - Recursos FHIR (cerca de 150)
 - Documentação do recurso
@@ -116,7 +119,7 @@ Organização das informações, rótulos e operações.
 - Terminologias (predefinidas)
 - Perfis (predefinidos)
 
-#### Solução
+### Solução
 
 - Metadados (autor, email, ...)
 - Instâncias (conforme estruturadas em pastas)
@@ -126,7 +129,7 @@ Organização das informações, rótulos e operações.
 - CRUD (fornecer metadados como contexto, autores, instituição e outros)
 - Navegar/consultar o conteúdo da solução (arquivos distribuídos em "pastas")
 
-#### Status, estatísticas e informações
+### Status, estatísticas e informações
 
 - Uso
 - Conexão com a internet
@@ -134,19 +137,19 @@ Organização das informações, rótulos e operações.
 - Versão
 - Perfis e terminologias disponíveis
 
-#### Terminologias
+### Terminologias
 
 - CodeSystem
 - ValueSet
 - Associar ValueSet a propriedade
 
-#### Visualização
+### Visualização
 
 - Formulário
 - Grafo
 - Filtrar elementos (atributos)
 
-### Navegação (_user flow_)
+## Navegação (_user flow_)
 
 Defina como o projetista irá navegar por todos os itens do inventário. Inclui menus, botões e links. O foco, contudo, não é o aspecto visual, mas a jornada.
 
@@ -154,20 +157,20 @@ Há muitas formas de se registrar isso. Segue uma proposta inicial [aqui](https:
 
 Eu prefiro, neste momento, simplesmente registrar os fluxos...
 
-#### Antes de "entrar"
+### Antes de "entrar"
 
 - Landing page (recepção do usuário ou potencial usuário) com opção para cadastro ou login.
 - Registrar novo usuário usando login social (google, facebook, ...)
 - Registrar novo usuário usando email
 
-#### Após "entrar" (sem solução aberta)
+### Após "entrar" (sem solução aberta)
 
 - Abrir solução
 - Criar solução
 - Atualizar cadastro do usuário (nome, ...)
 - Sair (logout)
 
-#### Solução aberta
+### Solução aberta
 
 - Verificar código (por exemplo, A90 é código para a Dengue, usando a terminologia CID10). Localizar?
 - Localizar por texto ou parte de texto. A busca será feita sobre nome de recursos, diretórios, ou seja, metadados ou dados, conteúdo das instâncias dos recursos, ...
