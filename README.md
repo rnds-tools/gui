@@ -7,7 +7,7 @@ aqui denominados de projetistas.
 
 > UX Designers não precisam dominar o padrão FHR,
 > contudo, alguma noção é necessária. Consulte
-> [aqui](fhir.md) para algumas orientações sobre o padrão.
+> [aqui](documentos/fhir.md) para algumas orientações sobre o padrão.
 
 ## Produtos similares
 
@@ -60,6 +60,6 @@ que o projetista cria uma solução ao "criar arquivos" nos formatos JSON, XML o
 
 ## Organização
 
-- As necessidades dos usuários (projetistas) e outras estão em [requisitos](requisitos.md).
-- Rótulos, organização e _user flows_ em [arquitetura de informação](arquitetura-informacao.md).
+- As necessidades dos usuários (projetistas) e outras estão em [requisitos](documentos/requisitos.md).
+- Rótulos, organização e _user flows_ em [arquitetura de informação](documentos/arquitetura-informacao.md).
 - Documentação do usuário (projetista) para as funções de instalação, configuração e manutenção, via linha de comandos está em disponível em https://rnds-tools.github.io/userdoc/.
