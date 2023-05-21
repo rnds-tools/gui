@@ -58,7 +58,9 @@ Organização das informações, rótulos e operações.
 ### Perspectivas
 
 - Visão de soluções
-- Visão e organização (exibir/ocultar pastas da soução)
+- Visão de organização de solução
+- Visão de grafo
+- Visão de instância
 
 ### Visão de organização (pastas)
 - Criar pasta
