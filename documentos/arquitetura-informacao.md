@@ -55,9 +55,12 @@ Organização das informações, rótulos e operações.
 - obter/atualizar/remover terminologias
 - obter/atualizar/remover perfis
 
-### Área de trabalho
+### Perspectivas
 
-- Organizar solução em pastas
+- Visão de soluções
+- Visão e organização (exibir/ocultar pastas da soução)
+
+### Visão de organização (pastas)
 - Criar pasta
 - Renomear pasta
 - Mover pasta
