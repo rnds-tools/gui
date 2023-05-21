@@ -61,8 +61,14 @@ Organização das informações, rótulos e operações.
 - Visão de organização de solução
 - Visão de grafo
 - Visão de instância
+  - Visão de formulário
+  - Visão de grafo
+  - Visão FSH
+  - Visão JSON
+  - Visão XML
 
 ### Visão de organização (pastas)
+
 - Criar pasta
 - Renomear pasta
 - Mover pasta
