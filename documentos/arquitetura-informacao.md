@@ -58,9 +58,9 @@ Organização das informações, rótulos e operações.
 ### Perspectivas (barra lateral como no VS)
 
 - Visão de soluções
-- Visão de organização de solução
-- Visão de grafo
-- Visão de instância
+- Visão de organização da solução aberta (pastas e subpastas contendo instâncias)
+- Visão gráfica (grafo das instânias da solução aberta)
+- Visão de instância (selecionada, em edição)
   - Visão de formulário
   - Visão de grafo
   - Visão FSH
@@ -209,7 +209,7 @@ Eu prefiro, neste momento, simplesmente registrar os fluxos...
 
 ### Abrir solução
 
-- Vá para a página de soluções
+- Vá para a visão de soluções
 - Faça busca para localizar a solução desejada, se for o caso.
 - Selecione a solução.
 
