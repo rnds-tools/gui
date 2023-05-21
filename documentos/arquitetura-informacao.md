@@ -55,7 +55,7 @@ Organização das informações, rótulos e operações.
 - obter/atualizar/remover terminologias
 - obter/atualizar/remover perfis
 
-### Perspectivas
+### Perspectivas (barra lateral como no VS)
 
 - Visão de soluções
 - Visão de organização de solução
