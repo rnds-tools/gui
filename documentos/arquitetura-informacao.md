@@ -47,7 +47,7 @@ Organização das informações, rótulos e operações.
 
 ### Administração
 
-- instalar/remover/atualizar/verificar software
+- instalar/remover/atualizar/verificar/iniciar/parar/monitorar software
 - baixar/usar/remover/verificar dados
 - configurar certificado digital (usado pelo Serviço de Terminologias)
 - configurar portas dos serviços
