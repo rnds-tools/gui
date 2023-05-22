@@ -146,7 +146,7 @@ Organização das informações, rótulos e operações.
 ### Soluções do usuário
 
 - Soluções criadas pelo usuário
-- Criar solução vazia (nome do autor, email, descrição)
+- Criar solução (nome e descrição, data fornecida automaticamente)
 - Renomear
 - Remover
 - Exportar
