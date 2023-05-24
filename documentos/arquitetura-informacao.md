@@ -103,10 +103,10 @@ Organização das informações, rótulos e operações.
 - Instância (um item da solução)
 - Subconjunto da solução
 
-### Extensão
+### Extensão (instância de StructureDefinition)
 
 - Definir url
-- Definir tipo
+- Selecionar tipo (de um conjunto [fixo](http://hl7.org/fhir/extensibility.html))
 - Localizar tipo
 - Identificar tipo por valor
 - Verificar (fornecer valor)
