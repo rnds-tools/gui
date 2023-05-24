@@ -157,7 +157,6 @@ Organização das informações, rótulos e operações.
 - Criar instância
   - Selecionar recurso (tipo da instância)
   - Definir classificação: exemplo, especialização ou restrição
-- Baixar (_download_)
 - Importar/carregar instância (incorporar à solução em uso)
 - Importar/carregar solução (incorporar à solução em uso)
 - Exportar solução em uso ou subconjunto (PDF, zip, html)
