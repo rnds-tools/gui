@@ -156,7 +156,7 @@ Organização das informações, rótulos e operações.
 
 - Criar instância
   - Selecionar recurso (tipo da instância)
-  - Selecionar tipo (exemplo, especialização ou restrição)
+  - Definir classificação: exemplo, especialização ou restrição
 - Baixar (_download_)
 - Importar/carregar instância (incorporar à solução em uso)
 - Importar/carregar solução (incorporar à solução em uso)
