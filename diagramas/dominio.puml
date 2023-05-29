@@ -75,5 +75,6 @@ note "Existem mais de 100 recursos,\naqui seguem 5 deles." as Nota
 Recurso .right. Nota
 
 Recurso -up-> Elemento
+Recurso -right-> Formulário
 Elemento *-right-> "0..*" Extensão : Contém
 @enduml
