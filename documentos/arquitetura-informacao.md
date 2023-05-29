@@ -61,7 +61,7 @@ Organização das informações, rótulos e operações.
 - Visão de organização da solução aberta (pastas e subpastas contendo instâncias)
 - Visão gráfica (grafo das instânias da solução aberta)
 - Visão de instância (selecionada, em edição)
-  - Visão de formulário
+  - Visão de formulário gerado [automaticamente](https://rjsf-team.github.io/react-jsonschema-form/)
   - Visão de grafo
   - Visão FSH
   - Visão JSON
