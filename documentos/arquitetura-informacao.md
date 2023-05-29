@@ -55,10 +55,15 @@
 
 ### Perspectivas
 
-- Soluções
-- Organização da solução aberta (pastas e subpastas contendo instâncias)
-- Gráfica (grafo das instânias da solução aberta)
-- Instância (selecionada)
+- Visão de soluções
+- Visão de organização da solução aberta (pastas e subpastas contendo instâncias)
+- Visão gráfica (grafo das instânias da solução aberta)
+- Visão de instância (selecionada, em edição)
+  - Visão de formulário gerado [automaticamente](https://rjsf-team.github.io/react-jsonschema-form/)
+  - Visão de grafo
+  - Visão FSH
+  - Visão JSON
+  - Visão XML
 
 ### Visão de organização (pastas)
 
@@ -96,10 +101,10 @@
 - Instância (um item da solução)
 - Subconjunto da solução
 
-### Extensão
+### Extensão (instância de StructureDefinition)
 
 - Definir url
-- Definir tipo
+- Selecionar tipo (de um conjunto [fixo](http://hl7.org/fhir/extensibility.html))
 - Localizar tipo
 - Identificar tipo por valor
 - Verificar (fornecer valor)
@@ -152,8 +157,7 @@
 
 - Criar instância
   - Selecionar recurso (tipo da instância)
-  - Selecionar tipo (exemplo, especialização ou restrição)
-- Baixar (_download_)
+  - Definir classificação: exemplo, especialização ou restrição
 - Importar/carregar instância (incorporar à solução em uso)
 - Importar/carregar solução (incorporar à solução em uso)
 - Exportar solução em uso ou subconjunto (PDF, zip, html)
