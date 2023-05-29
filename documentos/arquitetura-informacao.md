@@ -43,29 +43,22 @@
 
 ## Categorias
 
-Organização das informações, rótulos e operações.
-
 ### Administração
 
-- instalar/remover/atualizar/verificar/iniciar/parar/monitorar software
-- baixar/usar/remover/verificar dados
+- instalar/remover/atualizar/verificar/iniciar/parar/monitorar o ADF
+- baixar/usar/remover/verificar dados terminológicos e perfis
 - configurar certificado digital (usado pelo Serviço de Terminologias)
 - configurar portas dos serviços
 - definir diretório de trabalho
 - obter/atualizar/remover terminologias
 - obter/atualizar/remover perfis
 
-### Perspectivas (barra lateral como no VS)
+### Perspectivas
 
-- Visão de soluções
-- Visão de organização da solução aberta (pastas e subpastas contendo instâncias)
-- Visão gráfica (grafo das instânias da solução aberta)
-- Visão de instância (selecionada, em edição)
-  - Visão de formulário
-  - Visão de grafo
-  - Visão FSH
-  - Visão JSON
-  - Visão XML
+- Soluções
+- Organização da solução aberta (pastas e subpastas contendo instâncias)
+- Gráfica (grafo das instânias da solução aberta)
+- Instância (selecionada)
 
 ### Visão de organização (pastas)
 
@@ -119,14 +112,17 @@ Organização das informações, rótulos e operações.
 
 ### Instância
 
-- Gerar exemplos
+- Gerar exemplo
 - Validar
 - Status de validação (continuamente atualizado)
-- Visão gráfica (grafo)
-- Visão gráfica (formulário)
 - Exportar (PDF, png)
-- Adicinar perfil a ser atendido (exemplo)
+- Adicionar perfil a ser atendido (exemplo)
 - Adicionar extensão
+- Visão de formulário
+- Visão de grafo
+- Visão FSH
+- Visão JSON
+- Visão XML
 
 ### Perfis (StructureDefinition)
 
