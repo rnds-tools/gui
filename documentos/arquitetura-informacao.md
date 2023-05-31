@@ -56,21 +56,14 @@
 ### Perspectivas
 
 - Visão de soluções
-- Visão de organização da solução aberta (pastas e subpastas contendo instâncias)
-- Visão gráfica (grafo das instânias da solução aberta)
+- Visão de organização de solução
+- Visão gráfica
 - Visão de instância (selecionada, em edição)
   - Visão de formulário gerado [automaticamente](https://rjsf-team.github.io/react-jsonschema-form/)
   - Visão de grafo
   - Visão FSH
   - Visão JSON
   - Visão XML
-
-### Visão de organização (pastas)
-
-- Criar pasta
-- Renomear pasta
-- Mover pasta
-- Remover pasta
 
 ### Autenticação
 
@@ -144,14 +137,33 @@
 - Perfis (predefinidos)
 - Localizar por nome, parte do nome, atributo, documentação, ...
 
-### Soluções do usuário
+### Visão de formulário
 
-- Soluções criadas pelo usuário
+Formulário pode ser gerado [automaticamente](https://rjsf-team.github.io/react-jsonschema-form/). Nesta visão,
+a edição da instância é similar ao preenchimento de campos de um formulário.
+
+### Visão gráfica
+
+- Exibe grafo das instâncias da solução
+- Selecionar instância para edição
+
+### Visão de organização de solução (pastas)
+
+- Criar pasta
+- Renomear pasta
+- Mover pasta
+- Mover instância de recurso para outra pasta
+- Remover pasta
+
+### Visão de soluções
+
+- Soluções criadas pelo usuário (nome, descrição, data)
 - Criar solução (nome e descrição, data fornecida automaticamente)
 - Renomear
 - Remover
 - Exportar
 - Importar
+- Localizar
 
 ### Solução (aberta)
 
