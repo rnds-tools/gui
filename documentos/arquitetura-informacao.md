@@ -59,7 +59,7 @@
 - Visão de organização de solução
 - Visão gráfica
 - Visão de instância (selecionada, em edição)
-  - Visão de formulário gerado [automaticamente](https://rjsf-team.github.io/react-jsonschema-form/)
+  - Visão de formulário
   - Visão de grafo
   - Visão FSH
   - Visão JSON
@@ -78,8 +78,9 @@
 - Remover extensão
 - Alterar cardinalidade
 - Documentar elemento
-- Definir regra
+- Definir regra (FHIRPath)
 - Consultar documentação
+- Exibir exemplos
 
 ### Executar
 
@@ -90,9 +91,8 @@
 
 ### Exportar
 
-- Solução (toda ela)
+- Solução (toda ela ou subconjunto)
 - Instância (um item da solução)
-- Subconjunto da solução
 
 ### Extensão (instância de StructureDefinition)
 
@@ -100,8 +100,7 @@
 - Selecionar tipo (de um conjunto [fixo](http://hl7.org/fhir/extensibility.html))
 - Localizar tipo
 - Identificar tipo por valor
-- Verificar (fornecer valor)
-- Gerar valores de exemplo
+- Exibir exemplos (gerados pelo ADF)
 
 ### FHIRPath
 
@@ -137,9 +136,13 @@
 - Perfis (predefinidos)
 - Localizar por nome, parte do nome, atributo, documentação, ...
 
+### Visão FSH 
+
+Permite edição usando FHIR Shorthand.
+
 ### Visão de formulário
 
-Formulário pode ser gerado [automaticamente](https://rjsf-team.github.io/react-jsonschema-form/). Nesta visão,
+Permite edição por meio de formulário pode ser gerado [automaticamente](https://rjsf-team.github.io/react-jsonschema-form/). Nesta visão,
 a edição da instância é similar ao preenchimento de campos de um formulário.
 
 ### Visão gráfica
