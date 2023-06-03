@@ -56,8 +56,8 @@ class Elemento {}
 class Extensão {}
 
 Terminologia -up-|> Recurso
-StructureDefinition -up-|> Recurso
-StructureDefinition ..> Recurso : Estabelece\nrestrições
+StructureDefinition -left-|> Recurso
+
 CodeSystem -up-|> Terminologia
 ValueSet -up-|> Terminologia
 ConceptMap -up-|> Terminologia
@@ -71,10 +71,11 @@ XML -up-|> Arquivo
 Json -up-|> Arquivo
 FSH -up-|> Arquivo
 
-note "Existem mais de 100 recursos,\naqui seguem 5 deles." as Nota
-Recurso .right. Nota
 
 Recurso -up-> Elemento
-Recurso -right-> Formulário
+Recurso -up-> Formulário : Visualizado\npor
 Elemento *-right-> "0..*" Extensão : Contém
+
+Extensão -down-> StructureDefinition : Definida por
+
 @enduml
