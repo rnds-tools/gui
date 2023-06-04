@@ -57,7 +57,7 @@
 
 - Visão de soluções
 - Visão de organização de solução
-- Visão gráfica
+- Visão de grafo (toda a solução)
 - Visão de instância (selecionada, em edição)
   - Visão de formulário
   - Visão de grafo
