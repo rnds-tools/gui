@@ -209,19 +209,6 @@ Há muitas formas de se registrar isso. Segue uma proposta inicial [aqui](https:
 
 Eu prefiro, neste momento, simplesmente registrar os fluxos...
 
-### Cadastrar usuário
-
-- Vá para a landing page
-- Faça o cadastro (conta via email ou social)
-- Leias as informações sobre autorização do cadastro,
-  pois exige confirmação do email e outros.
-
-### Login
-
-- Vá para a landing page
-- Faça o login (conta) ou conta social (google, facebook, ...)
-- Obtém acesso as soluções do usuário.
-
 ### Abrir solução
 
 - Vá para a visão de soluções
