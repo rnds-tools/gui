@@ -37,19 +37,19 @@ class Recurso {
 class Terminologia {
 }
 
-class CodeSystem {
+class CodeSystem <<resource>> {
 }
 
-class ValueSet {
+class ValueSet <<resource>> {
 }
 
-class ConceptMap {
+class ConceptMap <<resource>> {
 }
 
-class NamingSystem {
+class NamingSystem <<resource>> {
 }
 
-class StructureDefinition {
+class StructureDefinition <<resource>> {
 }
 
 class Elemento {}
@@ -76,6 +76,6 @@ Recurso -up-> Elemento
 Recurso -up-> Formulário : Visualizado\npor
 Elemento *-right-> "0..*" Extensão : Contém
 
-Extensão -down-> StructureDefinition : Definida por
+Extensão -down-> StructureDefinition : Definida por\ninstância de
 
 @enduml
