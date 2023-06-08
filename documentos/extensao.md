@@ -18,5 +18,5 @@ para complementar as informações de um recurso com um tipo de dados predefinid
 6. O usuário fornece uma descrição (**description**).
 7. O usuário identifica se a extensão reúne várias outras extensões, ou seja, se é do tipo complexo ou, caso contrário, simples. O tipo complexo é definido por uma extensão que reúne subextensões. Observe que uma extensão ou possui subextensões, tipo complexo, ou um valor, tipo simples. Nunca ambos.
 8. Se simples, então identifica o tipo do valor correspondente dentre [dezenas](https://www.hl7.org/fhir/r4/extensibility.html) de opções.
-9. Se o tipo da extensão é complexo, então é preciso identificar cada uma das subextensões que fazem parte da extensão.
+9. Se o tipo da extensão é complexo, então é preciso identificar cada uma das subextensões que fazem parte da extensão. O projetista seleciona a extensão dentre aquelas disponíveis na solução. Observe que para criar uma extensão do tipo complexa é preciso estar disponível pelo menos uma extensão simples.
 10. Uma subextensão, para ser acrescentada, precisa de um nome único localmente no contexto da extensão editada, válido computacionalmente, além da cardinalidade e da URL que identifica a subextensão.
