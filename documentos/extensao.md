@@ -1,9 +1,7 @@
 ## Extensão
 
-Uma extensão é o mecanismo oferecido pelo FHIR
-para complementar as informações de um recurso.
-
-Informações úteis:
+Uma extensão é o mecanismo oferecido pelo padrão FHIR
+para complementar as informações de um recurso com um tipo de dados predefinido. Detalhes em:
 
 - https://www.hl7.org/fhir/r4/extensibility.html
 - https://hl7.org/fhir/uv/shorthand/reference.html#defining-extensions
