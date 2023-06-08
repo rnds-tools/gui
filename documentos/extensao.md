@@ -7,7 +7,7 @@ para complementar as informações de um recurso com um tipo de dados predefinid
 - https://hl7.org/fhir/uv/shorthand/reference.html#defining-extensions
 - https://www.hl7.org/fhir/r4/defining-extensions.html
 
-### Criar extensão
+### Criar extensão (user flow)
 
 1. Ao projetista está disponível a criação de uma extensão.
 1. O projetista requisita a criação. 
