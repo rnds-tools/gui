@@ -8,5 +8,5 @@ como o código deve ser exibido e _definition_, a definição do conceito. Um Co
 
 - Ao projetista está disponível a criação de instância de CodeSystem.
 - O projetista requisita a criação.
-- O projetista vê os campos principais pertinentes a um CodeSystem: identificador, título e descrição. Há muitos outros conforme [CodeSystem](http://hl7.org/fhir/codesystem).
+- O projetista vê os campos principais pertinentes a um CodeSystem: identificador, título e descrição. Há muitos outros conforme a documentação do [recurso](http://hl7.org/fhir/r4/codesystem).
 
