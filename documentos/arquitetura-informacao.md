@@ -209,13 +209,8 @@ Há muitas formas de se registrar isso. Segue uma proposta inicial [aqui](https:
 
 Eu prefiro, neste momento, simplesmente registrar os fluxos...
 
-### Abrir solução
-
-- Vá para a visão de soluções
-- Faça busca para localizar a solução desejada, se for o caso.
-- Selecione a solução.
-
-### Solução aberta
-
-- Verificar código (por exemplo, A90 é código para a Dengue, usando a terminologia CID10). Localizar?
-- Localizar por texto ou parte de texto. A busca será feita sobre nome de recursos, diretórios, ou seja, metadados ou dados, conteúdo das instâncias dos recursos, ...
+- User flow [extensão](extensao.md)
+- User flow [CodeSystem](codesystem.md)
+- User flow [ValueSet](valueset.md)
+- User flow [ConceptMap](conceptmap.md)
+- 
