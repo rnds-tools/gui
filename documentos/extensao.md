@@ -11,7 +11,7 @@ para complementar as informações de um recurso com um tipo de dados predefinid
 
 1. Ao projetista está disponível a criação de uma extensão.
 1. O projetista requisita a criação. 
-2. O projetista vê os campos disponíveis para a definição da extensão. Além da _url_ e do _value[x]_, existem metadados para a extensão, ou seja, qualquer campo de uma [StructureDefinition](https://www.hl7.org/fhir/r4/structuredefinition.html) além dos campos de [ElementDefinition](https://www.hl7.org/fhir/r4/elementdefinition.html) para _url_ e _value[x]_. 
+2. O projetista vê os campos disponíveis para a definição da extensão. Além da _url_ e do _value[x]_, existem metadados para a extensão, ou seja, qualquer campo de uma [StructureDefinition](https://www.hl7.org/fhir/r4/structuredefinition.html) além dos campos de [ElementDefinition](https://www.hl7.org/fhir/r4/elementdefinition.html) para _url_ e _value[x]_. Por exemplo, para fornecer uma descrição do conteúdo, _value[x]_, pode-se usar o campo _short_ para "breve descrição" deste campo assim como o campo _copyright_ para direitos autorais da extensão. Respectivamente, estes campos estão definidos em _ElementDefinition_ e _StructureDefinition_. Dito de outra forma, há vários metadados para a extensão (campos de StructureDefinition) assim como metadados para cada atributo da extensão (ElementDefinition).
 3. Fornece um identificador (nome válido computacionalmente, ou seja, atributo **name** da StructureDefinition que está sendo criada, a extensão). 
 4. A partir deste identificador é montada a URL canônica que identifica a extensão. Atributo **url** da StructureDetinition.
 5. O usuário fornece um título (**title**).
