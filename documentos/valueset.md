@@ -1,10 +1,7 @@
-## User flow (criação de CodeSystem)
+## User flow (criação de ValueSet)
 
-Uma instância de [CodeSystem](https://www.hl7.org/fhir/r4/codesystem.html) é empregada para definir o que também é conhecido por terminologia, ontologia ou enumeração.
-De forma simplificada identifica "conceitos".
-
-Um CodeSystem pode definir conceitos pertinentes por meio de propriedades básicas como _code_ (o código propriamente dito), o _display_
-como o código deve ser exibido e _definition_, a definição do conceito. Um CodeSystem também pode estender um CodeSystem existente com representações (_designation_ e propriedades).
+Uma instância de [ValueSet](https://www.hl7.org/fhir/r4/valueset.html) é empregada para reunir conceitos de uma ou mais instâncias de
+CodeSystem para uso em um contexto específico.
 
 - Ao projetista está disponível a criação de instância de CodeSystem.
 - O projetista requisita a criação.
