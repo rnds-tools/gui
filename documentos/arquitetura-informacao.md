@@ -213,4 +213,5 @@ Eu prefiro, neste momento, simplesmente registrar os fluxos...
 - User flow [CodeSystem](codesystem.md)
 - User flow [ValueSet](valueset.md)
 - User flow [ConceptMap](conceptmap.md)
-- 
+- User flow [NamingSystem](namingsystem.md)
+- User flow [datatypes](datatypes.md)
