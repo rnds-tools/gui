@@ -213,5 +213,5 @@ Eu prefiro, neste momento, simplesmente registrar os fluxos...
 - User flow [CodeSystem](codesystem.md) (Adriel, Arthur Camargo, Igor e Paulo Roberto)
 - User flow [ValueSet](valueset.md) (Daniela, Felipe Lagais, Arthur Faria, Tales Eduardo e Mikael)
 - User flow [ConceptMap](conceptmap.md)
-- User flow [NamingSystem](namingsystem.md)
+- User flow [NamingSystem](namingsystem.md) (Gabriel Pires, Giancarlo Moraes, Natan, Ramze, Guilherme Cruz)
 - User flow [datatypes](datatype.md)
