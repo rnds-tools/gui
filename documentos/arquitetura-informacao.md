@@ -209,9 +209,9 @@ Há muitas formas de se registrar isso. Segue uma proposta inicial [aqui](https:
 
 Eu prefiro, neste momento, simplesmente registrar os fluxos...
 
-- User flow [extensão](extensao.md)
-- User flow [CodeSystem](codesystem.md)
-- User flow [ValueSet](valueset.md)
+- User flow [extensão](extensao.md) (Felipe, Marcos, Amadeu, Luca e José Carlos)
+- User flow [CodeSystem](codesystem.md) (Adriel, Arthur Camargo, Igor e Paulo Roberto)
+- User flow [ValueSet](valueset.md) (Daniela, Felipe Lagais, Arthur Faria, Tales Eduardo e Mikael)
 - User flow [ConceptMap](conceptmap.md)
 - User flow [NamingSystem](namingsystem.md)
 - User flow [datatypes](datatype.md)
