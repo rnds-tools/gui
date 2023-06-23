@@ -12,7 +12,7 @@
 
 - Como projetista eu desejo manter várias soluções simultaneamente e carregar aquela desejada para edição.
 
-- Como projetista eu desejo baixar a solução que estou produzindo para uso por um servidor FHIR.
+- HU _Como projetista eu desejo baixar (exportar) a solução que estou produzindo para uso por um servidor FHIR ou para impressão, toda ela ou apenas parte_.
 
 - Como projetista eu desejo especializar uma solução para estabelecer restrições adicionais necessárias para um dado contexto de uso.
 
