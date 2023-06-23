@@ -1,5 +1,7 @@
 ## História de usuário
 
+- HU _Como projetista eu desejo baixar (exportar) a solução que estou produzindo para uso por um servidor FHIR ou para impressão_.
+  
 - HU Como projetista eu desejo me identificar para que minhas soluções, configurações e preferências estejam disponíveis.
 
 - HU Como projetista eu desejo editar instâncias de recursos FHIR para criar minha solução FHIR.
@@ -11,8 +13,6 @@
   solução atende às especificidades do contexto de uso do FHIR.
 
 - Como projetista eu desejo manter várias soluções simultaneamente e carregar aquela desejada para edição.
-
-- HU _Como projetista eu desejo baixar (exportar) a solução que estou produzindo para uso por um servidor FHIR ou para impressão_.
 
 - Como projetista eu desejo especializar uma solução para estabelecer restrições adicionais necessárias para um dado contexto de uso.
 
