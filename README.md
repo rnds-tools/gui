@@ -5,7 +5,7 @@ funcionalidades para o _design_ de soluções FHIR.
 O objetivo é propor uma interface para os usuários do ADF,
 aqui denominados de projetistas.
 
-Há uma versão mínima, [enxuta](enxuta) e outra extensa, complexa,
+Há uma versão mínima, [enxuta](documentos/enxuta.md) e outra extensa, complexa,
 na qual ao projetista são ofertados recursos de edição
 de recursos. 
 
