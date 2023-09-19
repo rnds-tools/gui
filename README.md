@@ -5,6 +5,10 @@ funcionalidades para o _design_ de soluções FHIR.
 O objetivo é propor uma interface para os usuários do ADF,
 aqui denominados de projetistas.
 
+Há uma versão mínima, [enxuta](enxuta) e outra extensa, complexa,
+na qual ao projetista são ofertados recursos de edição
+de recursos. 
+
 > UX Designers não precisam dominar o padrão FHR,
 > contudo, alguma noção é necessária. Consulte
 > [aqui](documentos/fhir.md) para algumas orientações sobre o padrão.
